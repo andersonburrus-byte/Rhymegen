@@ -19,6 +19,10 @@ const VOWELS = new Set([
   "AO", "AA", "AW", "OY",
 ]);
 
+// Normalise variant CMU phonemes to their canonical form.
+// AE ("cat") → AH keeps short-a words consistent with the corpus notation.
+const PHONEME_NORM: Record<string, string> = { AE: "AH" };
+
 // ── Types ─────────────────────────────────────────────────────────────────────
 export interface CorpusEntry {
   phrase: string;
@@ -77,11 +81,11 @@ function extractFingerprint(phonemes: string[]): string[] {
   const fp: string[] = [];
   let i = 0;
   while (i < phonemes.length) {
-    const p = phonemes[i];
+    const p = PHONEME_NORM[phonemes[i]] ?? phonemes[i];
     if (
       (p === "AO" || p === "AA") &&
       i + 1 < phonemes.length &&
-      phonemes[i + 1] === "R"
+      (PHONEME_NORM[phonemes[i + 1]] ?? phonemes[i + 1]) === "R"
     ) {
       fp.push(p + " R");
       i += 2;
@@ -254,7 +258,39 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
   }
 
   results.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
-  const trimmed = results.slice(0, count);
+
+  // ── Plural deduplication ─────────────────────────────────────────────────
+  // If a singular form already appears in results, drop its simple plural.
+  // Only applies to single-word results ending in -s or -es where removing
+  // the suffix yields another result already seen.
+  const seenPhrases = new Set<string>();
+  const deduped: RhymeResult[] = [];
+  for (const r of results) {
+    const lower = r.phrase.toLowerCase();
+    const words = lower.split(/\s+/);
+    // Only apply to single-word results (avoids stripping 's' from phrases)
+    if (words.length === 1) {
+      const word = words[0];
+      let isSuperfluous = false;
+      // Check -es plural (e.g. "crusaders" → "crusader")
+      if (word.endsWith("ers") && seenPhrases.has(word.slice(0, -1))) {
+        isSuperfluous = true;
+      } else if (word.endsWith("es") && seenPhrases.has(word.slice(0, -2))) {
+        isSuperfluous = true;
+      } else if (
+        word.endsWith("s") &&
+        !word.endsWith("ss") &&
+        seenPhrases.has(word.slice(0, -1))
+      ) {
+        isSuperfluous = true;
+      }
+      if (isSuperfluous) continue;
+    }
+    seenPhrases.add(lower);
+    deduped.push(r);
+  }
+
+  const trimmed = deduped.slice(0, count);
 
   return {
     results: trimmed,

@@ -307,7 +307,7 @@
     "phrase": "Razorblade",
     "phonemes": [
       "R",
-      "AE",
+      "AH",
       "Z",
       "AO",
       "R",
@@ -317,10 +317,11 @@
       "D"
     ],
     "fingerprint": [
+      "AH",
       "AO R",
       "EY"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -386,13 +387,14 @@
       "P",
       "EY",
       "B",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -402,13 +404,14 @@
       "EY",
       "N",
       "M",
-      "AE",
+      "AH",
       "N"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -419,13 +422,14 @@
       "R",
       "EY",
       "K",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -436,14 +440,15 @@
       "EY",
       "JH",
       "HH",
-      "AE",
+      "AH",
       "N",
       "D"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -453,14 +458,15 @@
       "EY",
       "N",
       "L",
-      "AE",
+      "AH",
       "N",
       "D"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -470,13 +476,14 @@
       "EY",
       "S",
       "T",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -485,13 +492,14 @@
       "EY",
       "JH",
       "G",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -502,14 +510,15 @@
       "P",
       "ER",
       "B",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
       "EY",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -519,14 +528,15 @@
       "EY",
       "N",
       "IY",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
       "EY",
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -537,15 +547,16 @@
       "T",
       "AA",
       "B",
-      "AE",
+      "AH",
       "NG",
       "K"
     ],
     "fingerprint": [
       "AA",
-      "AA"
+      "AA",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -559,14 +570,15 @@
       "T",
       "P",
       "L",
-      "AE",
+      "AH",
       "N"
     ],
     "fingerprint": [
       "EY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -577,14 +589,15 @@
       "T",
       "IH",
       "NG",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
       "EY",
-      "IH"
+      "IH",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -597,14 +610,15 @@
       "AH",
       "V",
       "T",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
       "EY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -615,14 +629,15 @@
       "B",
       "IY",
       "F",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
       "EY",
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -634,14 +649,15 @@
       "T",
       "IY",
       "M",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
       "EY",
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -652,14 +668,15 @@
       "Z",
       "ER",
       "T",
-      "AE",
+      "AH",
       "G"
     ],
     "fingerprint": [
       "EY",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -671,14 +688,15 @@
       "AH",
       "P",
       "B",
-      "AE",
+      "AH",
       "G"
     ],
     "fingerprint": [
       "EY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -688,14 +706,15 @@
       "EY",
       "S",
       "M",
-      "AE",
+      "AH",
       "S",
       "K"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -708,13 +727,14 @@
       "D",
       "G",
       "L",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -832,14 +852,15 @@
       "AH",
       "G",
       "L",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
       "EY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -853,14 +874,15 @@
       "V",
       "G",
       "R",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
       "EY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -908,17 +930,18 @@
     "phrase": "Razor-sharp",
     "phonemes": [
       "R",
-      "EY",
+      "AH",
       "Z",
-      "ER",
+      "AO",
+      "R",
       "SH",
       "AA",
       "R",
       "P"
     ],
     "fingerprint": [
-      "EY",
-      "ER",
+      "AH",
+      "AO R",
       "AA R"
     ],
     "syllables": 3,
@@ -928,7 +951,7 @@
     "phrase": "Bass guitar",
     "phonemes": [
       "B",
-      "AE",
+      "AH",
       "S",
       "G",
       "IH",
@@ -937,10 +960,11 @@
       "R"
     ],
     "fingerprint": [
+      "AH",
       "IH",
       "AA R"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -1491,38 +1515,40 @@
     "phrase": "Gap year",
     "phonemes": [
       "G",
-      "AE",
+      "AH",
       "P",
       "Y",
       "IH",
       "R"
     ],
     "fingerprint": [
+      "AH",
       "IH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Cashmere",
     "phonemes": [
       "K",
-      "AE",
+      "AH",
       "ZH",
       "M",
       "IH",
       "R"
     ],
     "fingerprint": [
+      "AH",
       "IH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Atmosphere",
     "phonemes": [
-      "AE",
+      "AH",
       "T",
       "M",
       "AH",
@@ -1533,16 +1559,17 @@
     ],
     "fingerprint": [
       "AH",
+      "AH",
       "IH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Chandelier",
     "phonemes": [
       "SH",
-      "AE",
+      "AH",
       "N",
       "D",
       "AH",
@@ -1552,16 +1579,17 @@
     ],
     "fingerprint": [
       "AH",
+      "AH",
       "IH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Camping gear",
     "phonemes": [
       "K",
-      "AE",
+      "AH",
       "M",
       "P",
       "IH",
@@ -1571,10 +1599,11 @@
       "R"
     ],
     "fingerprint": [
+      "AH",
       "IH",
       "IH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -1876,7 +1905,7 @@
     "phonemes": [
       "K",
       "R",
-      "AE",
+      "AH",
       "SH",
       "T",
       "EH",
@@ -1884,9 +1913,10 @@
       "T"
     ],
     "fingerprint": [
+      "AH",
       "EH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -1894,7 +1924,7 @@
     "phonemes": [
       "F",
       "L",
-      "AE",
+      "AH",
       "T",
       "B",
       "R",
@@ -1902,16 +1932,17 @@
       "D"
     ],
     "fingerprint": [
+      "AH",
       "EH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Bad breath",
     "phonemes": [
       "B",
-      "AE",
+      "AH",
       "D",
       "B",
       "R",
@@ -1919,9 +1950,10 @@
       "TH"
     ],
     "fingerprint": [
+      "AH",
       "EH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -1929,7 +1961,7 @@
     "phonemes": [
       "G",
       "R",
-      "AE",
+      "AH",
       "N",
       "D",
       "TH",
@@ -1938,9 +1970,10 @@
       "T"
     ],
     "fingerprint": [
+      "AH",
       "EH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -1949,7 +1982,7 @@
       "S",
       "K",
       "R",
-      "AE",
+      "AH",
       "M",
       "B",
       "AH",
@@ -1961,9 +1994,10 @@
     ],
     "fingerprint": [
       "AH",
+      "AH",
       "EH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -1971,7 +2005,7 @@
     "phonemes": [
       "S",
       "T",
-      "AE",
+      "AH",
       "N",
       "D",
       "IH",
@@ -1982,17 +2016,18 @@
       "K"
     ],
     "fingerprint": [
+      "AH",
       "IH",
       "EH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Fancy dress",
     "phonemes": [
       "F",
-      "AE",
+      "AH",
       "N",
       "S",
       "IY",
@@ -2002,10 +2037,11 @@
       "S"
     ],
     "fingerprint": [
+      "AH",
       "IY",
       "EH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -2013,47 +2049,50 @@
     "phonemes": [
       "B",
       "L",
-      "AE",
+      "AH",
       "K",
       "B",
       "ER",
       "D"
     ],
     "fingerprint": [
+      "AH",
       "ER"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Adverb",
     "phonemes": [
-      "AE",
+      "AH",
       "D",
       "V",
       "ER",
       "B"
     ],
     "fingerprint": [
+      "AH",
       "ER"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Bag search",
     "phonemes": [
       "B",
-      "AE",
+      "AH",
       "G",
       "S",
       "ER",
       "CH"
     ],
     "fingerprint": [
+      "AH",
       "ER"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -2061,7 +2100,7 @@
     "phonemes": [
       "T",
       "R",
-      "AE",
+      "AH",
       "P",
       "T",
       "N",
@@ -2069,32 +2108,34 @@
       "V"
     ],
     "fingerprint": [
+      "AH",
       "ER"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Patchwork",
     "phonemes": [
       "P",
-      "AE",
+      "AH",
       "CH",
       "W",
       "ER",
       "K"
     ],
     "fingerprint": [
+      "AH",
       "ER"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
     "phrase": "Cash to burn",
     "phonemes": [
       "K",
-      "AE",
+      "AH",
       "SH",
       "T",
       "UW",
@@ -2103,17 +2144,18 @@
       "N"
     ],
     "fingerprint": [
+      "AH",
       "UW",
       "ER"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Back to work",
     "phonemes": [
       "B",
-      "AE",
+      "AH",
       "K",
       "T",
       "UW",
@@ -2122,16 +2164,17 @@
       "K"
     ],
     "fingerprint": [
+      "AH",
       "UW",
       "ER"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Angry birds",
     "phonemes": [
-      "AE",
+      "AH",
       "NG",
       "G",
       "R",
@@ -2142,10 +2185,11 @@
       "Z"
     ],
     "fingerprint": [
+      "AH",
       "IY",
       "ER"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -2153,7 +2197,7 @@
     "phonemes": [
       "P",
       "L",
-      "AE",
+      "AH",
       "N",
       "AH",
       "T",
@@ -2162,16 +2206,17 @@
     ],
     "fingerprint": [
       "AH",
+      "AH",
       "ER"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
     "phrase": "Magic words",
     "phonemes": [
       "M",
-      "AE",
+      "AH",
       "JH",
       "IH",
       "K",
@@ -2181,10 +2226,11 @@
       "Z"
     ],
     "fingerprint": [
+      "AH",
       "IH",
       "ER"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -3319,14 +3365,15 @@
       "R",
       "IY",
       "L",
-      "AE",
+      "AH",
       "N",
       "S"
     ],
     "fingerprint": [
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -3336,13 +3383,14 @@
       "R",
       "IY",
       "P",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -3354,14 +3402,15 @@
       "IY",
       "T",
       "D",
-      "AE",
+      "AH",
       "N",
       "S"
     ],
     "fingerprint": [
-      "IY"
+      "IY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -4429,13 +4478,14 @@
       "ER",
       "D",
       "M",
-      "AE",
+      "AH",
       "N"
     ],
     "fingerprint": [
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -4444,111 +4494,7 @@
       "TH",
       "ER",
       "D",
-      "AE",
-      "K",
-      "T"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "Work plan",
-    "phonemes": [
-      "W",
-      "ER",
-      "K",
-      "P",
-      "L",
-      "AE",
-      "N"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "First hand",
-    "phonemes": [
-      "F",
-      "ER",
-      "S",
-      "T",
-      "HH",
-      "AE",
-      "N",
-      "D"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "Dirt track",
-    "phonemes": [
-      "D",
-      "ER",
-      "T",
-      "T",
-      "R",
-      "AE",
-      "K"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "Sperm bank",
-    "phonemes": [
-      "S",
-      "P",
-      "ER",
-      "M",
-      "B",
-      "AE",
-      "NG",
-      "K"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "Nerve gas",
-    "phonemes": [
-      "N",
-      "ER",
-      "V",
-      "G",
-      "AE",
-      "S"
-    ],
-    "fingerprint": [
-      "ER"
-    ],
-    "syllables": 1,
-    "source": "corpus"
-  },
-  {
-    "phrase": "Circus act",
-    "phonemes": [
-      "S",
-      "ER",
-      "K",
       "AH",
-      "S",
-      "AE",
       "K",
       "T"
     ],
@@ -4560,6 +4506,117 @@
     "source": "corpus"
   },
   {
+    "phrase": "Work plan",
+    "phonemes": [
+      "W",
+      "ER",
+      "K",
+      "P",
+      "L",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "First hand",
+    "phonemes": [
+      "F",
+      "ER",
+      "S",
+      "T",
+      "HH",
+      "AH",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dirt track",
+    "phonemes": [
+      "D",
+      "ER",
+      "T",
+      "T",
+      "R",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sperm bank",
+    "phonemes": [
+      "S",
+      "P",
+      "ER",
+      "M",
+      "B",
+      "AH",
+      "NG",
+      "K"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Nerve gas",
+    "phonemes": [
+      "N",
+      "ER",
+      "V",
+      "G",
+      "AH",
+      "S"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Circus act",
+    "phonemes": [
+      "S",
+      "ER",
+      "K",
+      "AH",
+      "S",
+      "AH",
+      "K",
+      "T"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
     "phrase": "Murder rap",
     "phonemes": [
       "M",
@@ -4567,14 +4624,15 @@
       "D",
       "ER",
       "R",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
       "ER",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -4586,14 +4644,15 @@
       "AH",
       "N",
       "K",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
       "ER",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -4605,14 +4664,15 @@
       "IH",
       "NG",
       "B",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
       "ER",
-      "IH"
+      "IH",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -4622,13 +4682,14 @@
       "ER",
       "D",
       "B",
-      "AE",
+      "AH",
       "TH"
     ],
     "fingerprint": [
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -4640,13 +4701,14 @@
       "T",
       "K",
       "L",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -5926,16 +5988,17 @@
       "L",
       "IH",
       "R",
-      "AE",
+      "AH",
       "Z",
       "D",
       "EY"
     ],
     "fingerprint": [
       "IH",
+      "AH",
       "EY"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -5945,14 +6008,15 @@
       "IY",
       "ER",
       "K",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
       "IY",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -5962,13 +6026,14 @@
       "EH",
       "R",
       "G",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "EH"
+      "EH",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -6782,13 +6847,14 @@
       "AY",
       "T",
       "K",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
-      "AY"
+      "AY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -6798,14 +6864,15 @@
       "AY",
       "T",
       "HH",
-      "AE",
+      "AH",
       "N",
       "D"
     ],
     "fingerprint": [
-      "AY"
+      "AY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -6817,13 +6884,14 @@
       "T",
       "G",
       "L",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "AY"
+      "AY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -6834,13 +6902,14 @@
       "AY",
       "T",
       "P",
-      "AE",
+      "AH",
       "TH"
     ],
     "fingerprint": [
-      "AY"
+      "AY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -8110,14 +8179,15 @@
       "R",
       "T",
       "HH",
-      "AE",
+      "AH",
       "N",
       "D"
     ],
     "fingerprint": [
-      "AO R"
+      "AO R",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -8127,13 +8197,14 @@
       "AO",
       "R",
       "P",
-      "AE",
+      "AH",
       "TH"
     ],
     "fingerprint": [
-      "AO R"
+      "AO R",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -8440,7 +8511,7 @@
     "phrase": "Water-ski",
     "phonemes": [
       "W",
-      "AO",
+      "AA",
       "T",
       "ER",
       "S",
@@ -8448,7 +8519,7 @@
       "IY"
     ],
     "fingerprint": [
-      "AO",
+      "AA",
       "ER",
       "IY"
     ],
@@ -8980,13 +9051,14 @@
       "S",
       "T",
       "R",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
-      "AW"
+      "AW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -8995,13 +9067,14 @@
       "AW",
       "T",
       "B",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
-      "AW"
+      "AW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -9011,13 +9084,14 @@
       "AW",
       "S",
       "K",
-      "AE",
+      "AH",
       "T"
     ],
     "fingerprint": [
-      "AW"
+      "AW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -9029,13 +9103,14 @@
       "D",
       "T",
       "R",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
-      "AW"
+      "AW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -9044,14 +9119,15 @@
       "AW",
       "T",
       "K",
-      "AE",
+      "AH",
       "S",
       "T"
     ],
     "fingerprint": [
-      "AW"
+      "AW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -9142,6 +9218,26 @@
       "AA R"
     ],
     "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Power plant",
+    "phonemes": [
+      "P",
+      "AW",
+      "ER",
+      "P",
+      "L",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AW",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -10416,14 +10512,15 @@
       "B",
       "OY",
       "B",
-      "AE",
+      "AH",
       "N",
       "D"
     ],
     "fingerprint": [
-      "OY"
+      "OY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -10435,14 +10532,15 @@
       "T",
       "B",
       "L",
-      "AE",
+      "AH",
       "NG",
       "K"
     ],
     "fingerprint": [
-      "OY"
+      "OY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -10452,15 +10550,16 @@
       "OY",
       "N",
       "HH",
-      "AE",
+      "AH",
       "N",
       "D",
       "Z"
     ],
     "fingerprint": [
-      "OY"
+      "OY",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -10472,16 +10571,17 @@
       "DH",
       "AH",
       "R",
-      "AE",
+      "AH",
       "NG",
       "K",
       "S"
     ],
     "fingerprint": [
       "OY",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -10917,13 +11017,13 @@
       "HH",
       "OY",
       "P",
-      "AH",
+      "AA",
       "L",
       "OY"
     ],
     "fingerprint": [
       "OY",
-      "AH",
+      "AA",
       "OY"
     ],
     "syllables": 3,
@@ -11152,13 +11252,14 @@
       "UH",
       "T",
       "R",
-      "AE",
+      "AH",
       "SH"
     ],
     "fingerprint": [
-      "UH"
+      "UH",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -11171,15 +11272,16 @@
       "EY",
       "CH",
       "B",
-      "AE",
+      "AH",
       "K"
     ],
     "fingerprint": [
       "UW",
       "EH",
-      "EY"
+      "EY",
+      "AH"
     ],
-    "syllables": 3,
+    "syllables": 4,
     "source": "corpus"
   },
   {
@@ -11189,13 +11291,14 @@
       "UH",
       "D",
       "M",
-      "AE",
+      "AH",
       "N"
     ],
     "fingerprint": [
-      "UH"
+      "UH",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -11637,13 +11740,14 @@
       "UW",
       "B",
       "M",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
-      "UW"
+      "UW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -11653,13 +11757,14 @@
       "UW",
       "M",
       "B",
-      "AE",
+      "AH",
       "P"
     ],
     "fingerprint": [
-      "UW"
+      "UW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -11670,13 +11775,14 @@
       "UW",
       "G",
       "R",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
-      "UW"
+      "UW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -11687,14 +11793,15 @@
       "UW",
       "G",
       "R",
-      "AE",
+      "AH",
       "N",
       "T"
     ],
     "fingerprint": [
-      "UW"
+      "UW",
+      "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -14066,14 +14173,15 @@
       "AH",
       "N",
       "D",
-      "AE",
+      "AH",
       "N",
       "S"
     ],
     "fingerprint": [
+      "AH",
       "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -14084,13 +14192,14 @@
       "AH",
       "D",
       "B",
-      "AE",
+      "AH",
       "TH"
     ],
     "fingerprint": [
+      "AH",
       "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -14100,13 +14209,14 @@
       "AH",
       "S",
       "P",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
+      "AH",
       "AH"
     ],
-    "syllables": 1,
+    "syllables": 2,
     "source": "corpus"
   },
   {
@@ -14193,14 +14303,15 @@
       "ER",
       "K",
       "L",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
       "AH",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -14212,14 +14323,15 @@
       "AH",
       "L",
       "B",
-      "AE",
+      "AH",
       "TH"
     ],
     "fingerprint": [
       "AH",
+      "AH",
       "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -14230,14 +14342,15 @@
       "D",
       "ER",
       "P",
-      "AE",
+      "AH",
       "S"
     ],
     "fingerprint": [
       "AH",
-      "ER"
+      "ER",
+      "AH"
     ],
-    "syllables": 2,
+    "syllables": 3,
     "source": "corpus"
   },
   {
@@ -14277,6 +14390,11234 @@
       "AH",
       "IY",
       "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Blue blazer",
+    "phonemes": [
+      "B",
+      "L",
+      "UW",
+      "B",
+      "L",
+      "EY",
+      "Z",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tomb raider",
+    "phonemes": [
+      "T",
+      "UW",
+      "M",
+      "R",
+      "EY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Space invader",
+    "phonemes": [
+      "S",
+      "P",
+      "EY",
+      "S",
+      "IH",
+      "N",
+      "V",
+      "EY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Crusader",
+    "phonemes": [
+      "K",
+      "R",
+      "UW",
+      "S",
+      "EY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Shoe maker",
+    "phonemes": [
+      "SH",
+      "UW",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Move maker",
+    "phonemes": [
+      "M",
+      "UW",
+      "V",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Trailblazer",
+    "phonemes": [
+      "T",
+      "R",
+      "EY",
+      "L",
+      "B",
+      "L",
+      "EY",
+      "Z",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Star Wars",
+    "phonemes": [
+      "S",
+      "T",
+      "AA",
+      "R",
+      "W",
+      "AO",
+      "R",
+      "Z"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lightsaber",
+    "phonemes": [
+      "L",
+      "AY",
+      "T",
+      "S",
+      "EY",
+      "B",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Skyscraper",
+    "phonemes": [
+      "S",
+      "K",
+      "AY",
+      "S",
+      "K",
+      "R",
+      "EY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ice maker",
+    "phonemes": [
+      "AY",
+      "S",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mind eraser",
+    "phonemes": [
+      "M",
+      "AY",
+      "N",
+      "D",
+      "IH",
+      "R",
+      "EY",
+      "S",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "IH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Crime fighter",
+    "phonemes": [
+      "K",
+      "R",
+      "AY",
+      "M",
+      "F",
+      "AY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Fire starter",
+    "phonemes": [
+      "F",
+      "AY",
+      "ER",
+      "S",
+      "T",
+      "AA",
+      "R",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "AA R",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Night crawler",
+    "phonemes": [
+      "N",
+      "AY",
+      "T",
+      "K",
+      "R",
+      "AO",
+      "L"
+    ],
+    "fingerprint": [
+      "AY",
+      "AO"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Eye opener",
+    "phonemes": [
+      "AY",
+      "OW",
+      "P",
+      "AH",
+      "N",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "OW",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Highlighter",
+    "phonemes": [
+      "HH",
+      "AY",
+      "L",
+      "AY",
+      "T"
+    ],
+    "fingerprint": [
+      "AY",
+      "AY"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sidewinder",
+    "phonemes": [
+      "S",
+      "AY",
+      "D",
+      "W",
+      "AY",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Diamond cutter",
+    "phonemes": [
+      "D",
+      "AY",
+      "M",
+      "AH",
+      "N",
+      "D",
+      "K",
+      "AH",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Final form",
+    "phonemes": [
+      "F",
+      "AY",
+      "N",
+      "AH",
+      "L",
+      "F",
+      "AO",
+      "R",
+      "M"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Giant sword",
+    "phonemes": [
+      "JH",
+      "AY",
+      "AH",
+      "N",
+      "T",
+      "S",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spinal cord",
+    "phonemes": [
+      "S",
+      "P",
+      "AY",
+      "N",
+      "AH",
+      "L",
+      "K",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Final four",
+    "phonemes": [
+      "F",
+      "AY",
+      "N",
+      "AH",
+      "L",
+      "F",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vital organs",
+    "phonemes": [
+      "V",
+      "AY",
+      "T",
+      "AH",
+      "L",
+      "AO",
+      "R",
+      "G",
+      "AH",
+      "N",
+      "Z"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tidal force",
+    "phonemes": [
+      "T",
+      "AY",
+      "D",
+      "AH",
+      "L",
+      "F",
+      "AO",
+      "R",
+      "S"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hired sword",
+    "phonemes": [
+      "HH",
+      "AY",
+      "ER",
+      "D",
+      "S",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Primal scorn",
+    "phonemes": [
+      "P",
+      "R",
+      "AY",
+      "M",
+      "AH",
+      "L",
+      "S",
+      "K",
+      "AO",
+      "R",
+      "N"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Viral storm",
+    "phonemes": [
+      "V",
+      "AY",
+      "R",
+      "AH",
+      "L",
+      "S",
+      "T",
+      "AO",
+      "R",
+      "M"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Silent war",
+    "phonemes": [
+      "S",
+      "AY",
+      "L",
+      "AH",
+      "N",
+      "T",
+      "W",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Iron fist",
+    "phonemes": [
+      "AY",
+      "ER",
+      "N",
+      "F",
+      "IH",
+      "S",
+      "T"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "IH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Iron curtain",
+    "phonemes": [
+      "AY",
+      "ER",
+      "N",
+      "K",
+      "ER",
+      "T",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "ER",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Finest hour",
+    "phonemes": [
+      "F",
+      "AY",
+      "N",
+      "AH",
+      "S",
+      "T",
+      "AW",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AW",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tight rope walk",
+    "phonemes": [
+      "T",
+      "AY",
+      "T",
+      "R",
+      "OW",
+      "P",
+      "W",
+      "AO",
+      "K"
+    ],
+    "fingerprint": [
+      "AY",
+      "OW",
+      "AO"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pipe bomb squad",
+    "phonemes": [
+      "P",
+      "AY",
+      "P",
+      "B",
+      "AA",
+      "M",
+      "S",
+      "K",
+      "W",
+      "AA",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AA",
+      "AA"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Knife and fork",
+    "phonemes": [
+      "N",
+      "AY",
+      "F",
+      "AH",
+      "N",
+      "D",
+      "F",
+      "AO",
+      "R",
+      "K"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Rhyme or die",
+    "phonemes": [
+      "R",
+      "AY",
+      "M",
+      "AO",
+      "R",
+      "D",
+      "AY"
+    ],
+    "fingerprint": [
+      "AY",
+      "AO R",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Time of war",
+    "phonemes": [
+      "T",
+      "AY",
+      "M",
+      "AH",
+      "V",
+      "W",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Primal lord",
+    "phonemes": [
+      "P",
+      "R",
+      "AY",
+      "M",
+      "AH",
+      "L",
+      "L",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pirate sword",
+    "phonemes": [
+      "P",
+      "AY",
+      "R",
+      "AH",
+      "T",
+      "S",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sniper fire",
+    "phonemes": [
+      "S",
+      "N",
+      "AY",
+      "P",
+      "ER",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Climber",
+    "phonemes": [
+      "K",
+      "L",
+      "AY",
+      "M",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Viper",
+    "phonemes": [
+      "V",
+      "AY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Striker",
+    "phonemes": [
+      "S",
+      "T",
+      "R",
+      "AY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cyber",
+    "phonemes": [
+      "S",
+      "AY",
+      "B",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dinosaur",
+    "phonemes": [
+      "D",
+      "AY",
+      "N",
+      "AH",
+      "S",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Baltimore",
+    "phonemes": [
+      "B",
+      "AO",
+      "L",
+      "T",
+      "AH",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AO",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Metaphor",
+    "phonemes": [
+      "M",
+      "EH",
+      "T",
+      "AH",
+      "F",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Open door",
+    "phonemes": [
+      "OW",
+      "P",
+      "AH",
+      "N",
+      "D",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Back and forth",
+    "phonemes": [
+      "B",
+      "AH",
+      "K",
+      "AH",
+      "N",
+      "D",
+      "F",
+      "AO",
+      "R",
+      "TH"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Nevermore",
+    "phonemes": [
+      "N",
+      "EH",
+      "V",
+      "ER",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ocean floor",
+    "phonemes": [
+      "OW",
+      "SH",
+      "AH",
+      "N",
+      "F",
+      "L",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Carnivore",
+    "phonemes": [
+      "K",
+      "AA",
+      "R",
+      "N",
+      "IH",
+      "V",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AA R",
+      "IH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Omnivore",
+    "phonemes": [
+      "AA",
+      "M",
+      "N",
+      "IY",
+      "V",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AA",
+      "IY",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Herbivore",
+    "phonemes": [
+      "HH",
+      "ER",
+      "B",
+      "IH",
+      "V",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "ER",
+      "IH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Corridor",
+    "phonemes": [
+      "K",
+      "AO",
+      "R",
+      "AH",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AO R",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Semaphore",
+    "phonemes": [
+      "S",
+      "AW",
+      "TH",
+      "IY",
+      "S",
+      "T",
+      "M",
+      "AA",
+      "P",
+      "IY",
+      "EY",
+      "CH",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AW",
+      "IY",
+      "AA",
+      "IY",
+      "EY",
+      "AO R"
+    ],
+    "syllables": 6,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Commodore",
+    "phonemes": [
+      "K",
+      "AA",
+      "M",
+      "AH",
+      "D",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sophomore",
+    "phonemes": [
+      "S",
+      "AA",
+      "F",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AA",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Anymore",
+    "phonemes": [
+      "EH",
+      "N",
+      "IY",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "EH",
+      "IY",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Furthermore",
+    "phonemes": [
+      "F",
+      "ER",
+      "DH",
+      "ER",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "ER",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Evermore",
+    "phonemes": [
+      "EH",
+      "V",
+      "ER",
+      "M",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Explore",
+    "phonemes": [
+      "IH",
+      "K",
+      "S",
+      "P",
+      "L",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ignore",
+    "phonemes": [
+      "IH",
+      "G",
+      "N",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Implore",
+    "phonemes": [
+      "IH",
+      "M",
+      "P",
+      "L",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Restore",
+    "phonemes": [
+      "R",
+      "IH",
+      "S",
+      "T",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Before",
+    "phonemes": [
+      "B",
+      "IH",
+      "F",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Eyesore",
+    "phonemes": [
+      "AY",
+      "S",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AY",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Trapdoor",
+    "phonemes": [
+      "T",
+      "R",
+      "AH",
+      "P",
+      "D",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Backdoor",
+    "phonemes": [
+      "B",
+      "AH",
+      "K",
+      "D",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "AH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Indoor",
+    "phonemes": [
+      "IH",
+      "N",
+      "D",
+      "AO",
+      "R"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Gladiator",
+    "phonemes": [
+      "G",
+      "L",
+      "AH",
+      "D",
+      "IY",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Terminator",
+    "phonemes": [
+      "T",
+      "ER",
+      "M",
+      "AH",
+      "N",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Predator",
+    "phonemes": [
+      "P",
+      "R",
+      "EH",
+      "D",
+      "AH",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spectator",
+    "phonemes": [
+      "S",
+      "P",
+      "EH",
+      "K",
+      "T",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Narrator",
+    "phonemes": [
+      "N",
+      "EH",
+      "R",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Senator",
+    "phonemes": [
+      "S",
+      "EH",
+      "N",
+      "AH",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Generator",
+    "phonemes": [
+      "JH",
+      "EH",
+      "N",
+      "ER",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Moderator",
+    "phonemes": [
+      "M",
+      "AA",
+      "D",
+      "ER",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "ER",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Innovator",
+    "phonemes": [
+      "IH",
+      "N",
+      "AH",
+      "V",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Instigator",
+    "phonemes": [
+      "IH",
+      "N",
+      "S",
+      "T",
+      "AH",
+      "G",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Agitator",
+    "phonemes": [
+      "AH",
+      "JH",
+      "AH",
+      "T",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Alligator",
+    "phonemes": [
+      "AH",
+      "L",
+      "AH",
+      "G",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Calculator",
+    "phonemes": [
+      "K",
+      "AH",
+      "L",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Accelerator",
+    "phonemes": [
+      "AH",
+      "K",
+      "S",
+      "EH",
+      "L",
+      "ER",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "ER",
+      "EY",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Collaborator",
+    "phonemes": [
+      "K",
+      "AH",
+      "L",
+      "AH",
+      "B",
+      "ER",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "ER",
+      "EY",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Demonstrator",
+    "phonemes": [
+      "D",
+      "EH",
+      "M",
+      "AH",
+      "N",
+      "S",
+      "T",
+      "R",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Elevator",
+    "phonemes": [
+      "EH",
+      "L",
+      "AH",
+      "V",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Escalator",
+    "phonemes": [
+      "EH",
+      "S",
+      "K",
+      "AH",
+      "L",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Incubator",
+    "phonemes": [
+      "IH",
+      "NG",
+      "K",
+      "Y",
+      "AH",
+      "B",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ulator",
+    "phonemes": [
+      "Y",
+      "UW",
+      "L",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Simulator",
+    "phonemes": [
+      "S",
+      "IH",
+      "M",
+      "Y",
+      "AH",
+      "L",
+      "EY",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spectator sport",
+    "phonemes": [
+      "S",
+      "P",
+      "EH",
+      "K",
+      "T",
+      "EY",
+      "T",
+      "ER",
+      "S",
+      "P",
+      "AO",
+      "R",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Darth Vader",
+    "phonemes": [
+      "D",
+      "AA",
+      "R",
+      "TH",
+      "V",
+      "EY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA R",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Alien",
+    "phonemes": [
+      "EY",
+      "L",
+      "IY",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EY",
+      "IY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Predator drone",
+    "phonemes": [
+      "P",
+      "R",
+      "EH",
+      "D",
+      "AH",
+      "T",
+      "ER",
+      "D",
+      "R",
+      "OW",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "ER",
+      "OW"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Avatar",
+    "phonemes": [
+      "AH",
+      "V",
+      "AH",
+      "T",
+      "AA",
+      "R"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Jurassic Park",
+    "phonemes": [
+      "JH",
+      "UH",
+      "R",
+      "AH",
+      "S",
+      "IH",
+      "K",
+      "P",
+      "AA",
+      "R",
+      "K"
+    ],
+    "fingerprint": [
+      "UH",
+      "AH",
+      "IH",
+      "AA R"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Breaking Bad",
+    "phonemes": [
+      "B",
+      "R",
+      "EY",
+      "K",
+      "IH",
+      "NG",
+      "B",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Walking Dead",
+    "phonemes": [
+      "W",
+      "AO",
+      "K",
+      "IH",
+      "NG",
+      "D",
+      "EH",
+      "D"
+    ],
+    "fingerprint": [
+      "AO",
+      "IH",
+      "EH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Game of Thrones",
+    "phonemes": [
+      "G",
+      "EY",
+      "M",
+      "AH",
+      "V",
+      "TH",
+      "R",
+      "OW",
+      "N"
+    ],
+    "fingerprint": [
+      "EY",
+      "AH",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "House of cards",
+    "phonemes": [
+      "HH",
+      "AW",
+      "S",
+      "AH",
+      "V",
+      "K",
+      "AA",
+      "R",
+      "D",
+      "Z"
+    ],
+    "fingerprint": [
+      "AW",
+      "AH",
+      "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Man of steel",
+    "phonemes": [
+      "M",
+      "AH",
+      "N",
+      "AH",
+      "V",
+      "S",
+      "T",
+      "IY",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "IY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Planet of apes",
+    "phonemes": [
+      "P",
+      "L",
+      "AH",
+      "N",
+      "AH",
+      "T",
+      "AH",
+      "V",
+      "EY",
+      "P",
+      "S"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH",
+      "EY"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Rise of Rome",
+    "phonemes": [
+      "R",
+      "AY",
+      "Z",
+      "AH",
+      "V",
+      "R",
+      "OW",
+      "M"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lord of flies",
+    "phonemes": [
+      "L",
+      "AO",
+      "R",
+      "D",
+      "AH",
+      "V",
+      "F",
+      "L",
+      "AY",
+      "Z"
+    ],
+    "fingerprint": [
+      "AO R",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Wolf of Wall Street",
+    "phonemes": [
+      "W",
+      "UH",
+      "L",
+      "F",
+      "AH",
+      "V",
+      "W",
+      "AO",
+      "L",
+      "S",
+      "T",
+      "R",
+      "IY",
+      "T"
+    ],
+    "fingerprint": [
+      "UH",
+      "AH",
+      "AO",
+      "IY"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Full Metal Jacket",
+    "phonemes": [
+      "F",
+      "UH",
+      "L",
+      "M",
+      "EH",
+      "T",
+      "AH",
+      "L",
+      "JH",
+      "AH",
+      "K",
+      "AH",
+      "T"
+    ],
+    "fingerprint": [
+      "UH",
+      "EH",
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Saving Private Ryan",
+    "phonemes": [
+      "S",
+      "EY",
+      "V",
+      "IH",
+      "NG",
+      "P",
+      "R",
+      "AY",
+      "V",
+      "AH",
+      "T",
+      "R",
+      "AY",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH",
+      "AY",
+      "AH",
+      "AY",
+      "AH"
+    ],
+    "syllables": 6,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Training Day",
+    "phonemes": [
+      "T",
+      "R",
+      "EY",
+      "N",
+      "IH",
+      "NG",
+      "D",
+      "EY"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Judgment Day",
+    "phonemes": [
+      "JH",
+      "AH",
+      "JH",
+      "M",
+      "AH",
+      "N",
+      "T",
+      "D",
+      "EY"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Groundhog Day",
+    "phonemes": [
+      "G",
+      "R",
+      "AW",
+      "N",
+      "D",
+      "HH",
+      "AA",
+      "G",
+      "D",
+      "EY"
+    ],
+    "fingerprint": [
+      "AW",
+      "AA",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Doomsday clock",
+    "phonemes": [
+      "D",
+      "UW",
+      "M",
+      "Z",
+      "D",
+      "EY",
+      "K",
+      "L",
+      "AA",
+      "K"
+    ],
+    "fingerprint": [
+      "UW",
+      "EY",
+      "AA"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Zero Dark Thirty",
+    "phonemes": [
+      "Z",
+      "IH",
+      "R",
+      "OW",
+      "D",
+      "AA",
+      "R",
+      "K",
+      "TH",
+      "ER",
+      "D",
+      "IY"
+    ],
+    "fingerprint": [
+      "IH",
+      "OW",
+      "AA R",
+      "ER",
+      "IY"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Prison Break",
+    "phonemes": [
+      "P",
+      "R",
+      "IH",
+      "Z",
+      "AH",
+      "N",
+      "B",
+      "R",
+      "EY",
+      "K"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Body bag",
+    "phonemes": [
+      "B",
+      "AA",
+      "D",
+      "IY",
+      "B",
+      "AH",
+      "G"
+    ],
+    "fingerprint": [
+      "AA",
+      "IY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Body count",
+    "phonemes": [
+      "B",
+      "AA",
+      "D",
+      "IY",
+      "K",
+      "AW",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AA",
+      "IY",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Body language",
+    "phonemes": [
+      "B",
+      "AA",
+      "D",
+      "IY",
+      "L",
+      "AH",
+      "NG",
+      "G",
+      "W",
+      "AH",
+      "JH"
+    ],
+    "fingerprint": [
+      "AA",
+      "IY",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Verbal assault",
+    "phonemes": [
+      "V",
+      "ER",
+      "B",
+      "AH",
+      "L",
+      "AH",
+      "S",
+      "AO",
+      "L",
+      "T"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "AH",
+      "AO"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lyrical",
+    "phonemes": [
+      "L",
+      "IH",
+      "R",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Syllable",
+    "phonemes": [
+      "S",
+      "IH",
+      "L",
+      "AH",
+      "B",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Criminal",
+    "phonemes": [
+      "K",
+      "R",
+      "IH",
+      "M",
+      "AH",
+      "N",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Original",
+    "phonemes": [
+      "ER",
+      "IH",
+      "JH",
+      "AH",
+      "N",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "ER",
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Subliminal",
+    "phonemes": [
+      "S",
+      "AH",
+      "B",
+      "L",
+      "IH",
+      "M",
+      "IH",
+      "N",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Subliminal message",
+    "phonemes": [
+      "S",
+      "AH",
+      "B",
+      "L",
+      "IH",
+      "M",
+      "IH",
+      "N",
+      "AH",
+      "L",
+      "M",
+      "EH",
+      "S",
+      "AH",
+      "JH"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "IH",
+      "AH",
+      "EH",
+      "AH"
+    ],
+    "syllables": 6,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Flow different",
+    "phonemes": [
+      "F",
+      "L",
+      "OW",
+      "D",
+      "IH",
+      "F",
+      "ER",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "OW",
+      "IH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cold blooded",
+    "phonemes": [
+      "K",
+      "OW",
+      "L",
+      "D",
+      "B",
+      "L",
+      "AH",
+      "D",
+      "IH",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "IH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stone cold",
+    "phonemes": [
+      "S",
+      "T",
+      "OW",
+      "N",
+      "K",
+      "OW",
+      "L",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "OW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Gold chain",
+    "phonemes": [
+      "G",
+      "OW",
+      "L",
+      "D",
+      "CH",
+      "EY",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "EY"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Old school",
+    "phonemes": [
+      "OW",
+      "L",
+      "D",
+      "S",
+      "K",
+      "UW",
+      "L"
+    ],
+    "fingerprint": [
+      "OW",
+      "UW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bold moves",
+    "phonemes": [
+      "B",
+      "OW",
+      "L",
+      "D",
+      "M",
+      "UW",
+      "V",
+      "Z"
+    ],
+    "fingerprint": [
+      "OW",
+      "UW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Soul food",
+    "phonemes": [
+      "S",
+      "OW",
+      "L",
+      "F",
+      "UW",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "UW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Whole truth",
+    "phonemes": [
+      "HH",
+      "OW",
+      "L",
+      "T",
+      "R",
+      "UW",
+      "TH"
+    ],
+    "fingerprint": [
+      "OW",
+      "UW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Overthrow",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "TH",
+      "R",
+      "OW"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Overload",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "L",
+      "OW",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Overflow",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "F",
+      "L",
+      "OW"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Overlord",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "L",
+      "AO",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "AO R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Override",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "R",
+      "AY",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Overcome",
+    "phonemes": [
+      "OW",
+      "V",
+      "ER",
+      "K",
+      "AH",
+      "M"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underworld",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "W",
+      "ER",
+      "L",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underground",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "G",
+      "R",
+      "AW",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Understand",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "S",
+      "T",
+      "AH",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Undertaker",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "T",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Undertow",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "T",
+      "OW"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underdog",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "D",
+      "AO",
+      "G"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AO"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underage",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "IH",
+      "JH"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "IH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underpaid",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "P",
+      "EY",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underrated",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "R",
+      "EY",
+      "T",
+      "IH",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EY",
+      "IH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Undercover",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "K",
+      "AH",
+      "V",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Underbelly",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "B",
+      "EH",
+      "L",
+      "IY"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EH",
+      "IY"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Number one",
+    "phonemes": [
+      "N",
+      "AH",
+      "M",
+      "B",
+      "ER",
+      "W",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Thunder gun",
+    "phonemes": [
+      "TH",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "G",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Blunder bus",
+    "phonemes": [
+      "B",
+      "L",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "B",
+      "AH",
+      "S"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hunger games",
+    "phonemes": [
+      "HH",
+      "AH",
+      "NG",
+      "G",
+      "ER",
+      "G",
+      "EY",
+      "M",
+      "Z"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Plunder raid",
+    "phonemes": [
+      "P",
+      "L",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "R",
+      "EY",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hundred grand",
+    "phonemes": [
+      "HH",
+      "AH",
+      "N",
+      "D",
+      "R",
+      "AH",
+      "D",
+      "G",
+      "R",
+      "AH",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Front and center",
+    "phonemes": [
+      "F",
+      "R",
+      "AH",
+      "N",
+      "T",
+      "AH",
+      "N",
+      "D",
+      "S",
+      "EH",
+      "N",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cut throat",
+    "phonemes": [
+      "K",
+      "AH",
+      "T",
+      "TH",
+      "R",
+      "OW",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "OW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Blood oath",
+    "phonemes": [
+      "B",
+      "L",
+      "AH",
+      "D",
+      "OW",
+      "TH"
+    ],
+    "fingerprint": [
+      "AH",
+      "OW"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Gut punch",
+    "phonemes": [
+      "G",
+      "AH",
+      "T",
+      "P",
+      "AH",
+      "N",
+      "CH"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "One punch",
+    "phonemes": [
+      "W",
+      "AH",
+      "N",
+      "P",
+      "AH",
+      "N",
+      "CH"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Double cross",
+    "phonemes": [
+      "D",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "K",
+      "R",
+      "AO",
+      "S"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AO"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Double down",
+    "phonemes": [
+      "D",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "D",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Double edge",
+    "phonemes": [
+      "D",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "EH",
+      "JH"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Trouble maker",
+    "phonemes": [
+      "T",
+      "R",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bubble wrap",
+    "phonemes": [
+      "B",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "R",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hustle hard",
+    "phonemes": [
+      "HH",
+      "AH",
+      "S",
+      "AH",
+      "L",
+      "HH",
+      "AA",
+      "R",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Muscle memory",
+    "phonemes": [
+      "M",
+      "AH",
+      "S",
+      "AH",
+      "L",
+      "M",
+      "EH",
+      "M",
+      "ER",
+      "IY"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EH",
+      "ER",
+      "IY"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Knuckle up",
+    "phonemes": [
+      "N",
+      "AH",
+      "K",
+      "AH",
+      "L",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Buckle down",
+    "phonemes": [
+      "B",
+      "AH",
+      "K",
+      "AH",
+      "L",
+      "D",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Struggle bus",
+    "phonemes": [
+      "S",
+      "T",
+      "R",
+      "AH",
+      "G",
+      "AH",
+      "L",
+      "B",
+      "AH",
+      "S"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Jugular",
+    "phonemes": [
+      "JH",
+      "UW",
+      "G",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Nuclear",
+    "phonemes": [
+      "N",
+      "UW",
+      "K",
+      "L",
+      "IY",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Muscular",
+    "phonemes": [
+      "M",
+      "AH",
+      "S",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Circular",
+    "phonemes": [
+      "S",
+      "ER",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Singular",
+    "phonemes": [
+      "S",
+      "IH",
+      "NG",
+      "G",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Regular",
+    "phonemes": [
+      "R",
+      "EH",
+      "G",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Irregular",
+    "phonemes": [
+      "IH",
+      "R",
+      "EH",
+      "G",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spectacular",
+    "phonemes": [
+      "S",
+      "P",
+      "EH",
+      "K",
+      "T",
+      "AH",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Molecular",
+    "phonemes": [
+      "M",
+      "AH",
+      "L",
+      "EH",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Particular",
+    "phonemes": [
+      "P",
+      "ER",
+      "T",
+      "IH",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "ER",
+      "IH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Perpendicular",
+    "phonemes": [
+      "P",
+      "ER",
+      "P",
+      "AH",
+      "N",
+      "D",
+      "IH",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "IH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Venicular",
+    "phonemes": [
+      "V",
+      "EH",
+      "N",
+      "IH",
+      "K",
+      "Y",
+      "UW",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "IH",
+      "UW",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vehicular",
+    "phonemes": [
+      "V",
+      "IY",
+      "HH",
+      "IH",
+      "K",
+      "Y",
+      "AH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "IH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pull the trigger",
+    "phonemes": [
+      "P",
+      "UH",
+      "L",
+      "DH",
+      "AH",
+      "T",
+      "R",
+      "IH",
+      "G",
+      "ER"
+    ],
+    "fingerprint": [
+      "UH",
+      "AH",
+      "IH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Push the limit",
+    "phonemes": [
+      "P",
+      "UH",
+      "SH",
+      "DH",
+      "AH",
+      "L",
+      "IH",
+      "M",
+      "AH",
+      "T"
+    ],
+    "fingerprint": [
+      "UH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cross the line",
+    "phonemes": [
+      "K",
+      "R",
+      "AO",
+      "S",
+      "DH",
+      "AH",
+      "L",
+      "AY",
+      "N"
+    ],
+    "fingerprint": [
+      "AO",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Raise the bar",
+    "phonemes": [
+      "R",
+      "EY",
+      "Z",
+      "DH",
+      "AH",
+      "B",
+      "AA",
+      "R"
+    ],
+    "fingerprint": [
+      "EY",
+      "AH",
+      "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Break the mold",
+    "phonemes": [
+      "B",
+      "R",
+      "EY",
+      "K",
+      "DH",
+      "AH",
+      "M",
+      "OW",
+      "L",
+      "D"
+    ],
+    "fingerprint": [
+      "EY",
+      "AH",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bend the rules",
+    "phonemes": [
+      "B",
+      "EH",
+      "N",
+      "D",
+      "DH",
+      "AH",
+      "R",
+      "UW",
+      "L",
+      "Z"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Drop the bomb",
+    "phonemes": [
+      "D",
+      "R",
+      "AA",
+      "P",
+      "DH",
+      "AH",
+      "B",
+      "AA",
+      "M"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "AA"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Flip the script",
+    "phonemes": [
+      "F",
+      "L",
+      "IH",
+      "P",
+      "DH",
+      "AH",
+      "S",
+      "K",
+      "R",
+      "IH",
+      "P",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Shift the power",
+    "phonemes": [
+      "SH",
+      "IH",
+      "F",
+      "T",
+      "DH",
+      "AH",
+      "P",
+      "AW",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AW",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Split the difference",
+    "phonemes": [
+      "S",
+      "P",
+      "L",
+      "IH",
+      "T",
+      "DH",
+      "AH",
+      "D",
+      "IH",
+      "F",
+      "ER",
+      "AH",
+      "N",
+      "S"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hit the mark",
+    "phonemes": [
+      "HH",
+      "IH",
+      "T",
+      "DH",
+      "AH",
+      "M",
+      "AA",
+      "R",
+      "K"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AA R"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Miss the point",
+    "phonemes": [
+      "M",
+      "IH",
+      "S",
+      "DH",
+      "AH",
+      "P",
+      "OY",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "OY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Twist the knife",
+    "phonemes": [
+      "T",
+      "W",
+      "IH",
+      "S",
+      "T",
+      "DH",
+      "AH",
+      "N",
+      "AY",
+      "F"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pick a side",
+    "phonemes": [
+      "P",
+      "IH",
+      "K",
+      "AH",
+      "S",
+      "AY",
+      "D"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dig a grave",
+    "phonemes": [
+      "D",
+      "IH",
+      "G",
+      "AH",
+      "G",
+      "R",
+      "EY",
+      "V"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spit your truth",
+    "phonemes": [
+      "S",
+      "P",
+      "IH",
+      "T",
+      "Y",
+      "AO",
+      "R",
+      "T",
+      "R",
+      "UW",
+      "TH"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R",
+      "UW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Live your life",
+    "phonemes": [
+      "L",
+      "AY",
+      "V",
+      "Y",
+      "AO",
+      "R",
+      "L",
+      "AY",
+      "F"
+    ],
+    "fingerprint": [
+      "AY",
+      "AO R",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Give your word",
+    "phonemes": [
+      "G",
+      "IH",
+      "V",
+      "Y",
+      "AO",
+      "R",
+      "W",
+      "ER",
+      "D"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Risk your neck",
+    "phonemes": [
+      "R",
+      "IH",
+      "S",
+      "K",
+      "Y",
+      "AO",
+      "R",
+      "N",
+      "EH",
+      "K"
+    ],
+    "fingerprint": [
+      "IH",
+      "AO R",
+      "EH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Fix the system",
+    "phonemes": [
+      "F",
+      "IH",
+      "K",
+      "S",
+      "DH",
+      "AH",
+      "S",
+      "IH",
+      "S",
+      "T",
+      "AH",
+      "M"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Trick the mind",
+    "phonemes": [
+      "T",
+      "R",
+      "IH",
+      "K",
+      "DH",
+      "AH",
+      "M",
+      "AY",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Build an empire",
+    "phonemes": [
+      "B",
+      "IH",
+      "L",
+      "D",
+      "AH",
+      "N",
+      "EH",
+      "M",
+      "P",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Kill the vibe",
+    "phonemes": [
+      "K",
+      "IH",
+      "L",
+      "DH",
+      "AH",
+      "V",
+      "AY",
+      "B"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Still alive",
+    "phonemes": [
+      "S",
+      "T",
+      "IH",
+      "L",
+      "AH",
+      "L",
+      "AY",
+      "V"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Real life",
+    "phonemes": [
+      "R",
+      "IY",
+      "L",
+      "L",
+      "AY",
+      "F"
+    ],
+    "fingerprint": [
+      "IY",
+      "AY"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Steel knife",
+    "phonemes": [
+      "S",
+      "T",
+      "IY",
+      "L",
+      "N",
+      "AY",
+      "F"
+    ],
+    "fingerprint": [
+      "IY",
+      "AY"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Feel the fire",
+    "phonemes": [
+      "F",
+      "IY",
+      "L",
+      "DH",
+      "AH",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Deal or die",
+    "phonemes": [
+      "D",
+      "IY",
+      "L",
+      "AO",
+      "R",
+      "D",
+      "AY"
+    ],
+    "fingerprint": [
+      "IY",
+      "AO R",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Seal your fate",
+    "phonemes": [
+      "S",
+      "IY",
+      "L",
+      "Y",
+      "AO",
+      "R",
+      "F",
+      "EY",
+      "T"
+    ],
+    "fingerprint": [
+      "IY",
+      "AO R",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Heal the wound",
+    "phonemes": [
+      "HH",
+      "IY",
+      "L",
+      "DH",
+      "AH",
+      "W",
+      "AW",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Steal the crown",
+    "phonemes": [
+      "S",
+      "T",
+      "IY",
+      "L",
+      "DH",
+      "AH",
+      "K",
+      "R",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Kneel and bow",
+    "phonemes": [
+      "N",
+      "IY",
+      "L",
+      "AH",
+      "N",
+      "D",
+      "B",
+      "AW"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Reveal the truth",
+    "phonemes": [
+      "R",
+      "IH",
+      "V",
+      "IY",
+      "L",
+      "DH",
+      "AH",
+      "T",
+      "R",
+      "UW",
+      "TH"
+    ],
+    "fingerprint": [
+      "IH",
+      "IY",
+      "AH",
+      "UW"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Appeal to power",
+    "phonemes": [
+      "AH",
+      "P",
+      "IY",
+      "L",
+      "T",
+      "UW",
+      "P",
+      "AW",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "UW",
+      "AW",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Avalanche",
+    "phonemes": [
+      "AH",
+      "V",
+      "AH",
+      "L",
+      "AH",
+      "N",
+      "CH"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hurricane",
+    "phonemes": [
+      "HH",
+      "ER",
+      "AH",
+      "K",
+      "EY",
+      "N"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tornado",
+    "phonemes": [
+      "T",
+      "AO",
+      "R",
+      "N",
+      "EY",
+      "D",
+      "OW"
+    ],
+    "fingerprint": [
+      "AO R",
+      "EY",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Volcano",
+    "phonemes": [
+      "V",
+      "AA",
+      "L",
+      "K",
+      "EY",
+      "N",
+      "OW"
+    ],
+    "fingerprint": [
+      "AA",
+      "EY",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tsunami",
+    "phonemes": [
+      "T",
+      "S",
+      "UW",
+      "N",
+      "AA",
+      "M",
+      "IY"
+    ],
+    "fingerprint": [
+      "UW",
+      "AA",
+      "IY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Earthquake zone",
+    "phonemes": [
+      "ER",
+      "TH",
+      "K",
+      "W",
+      "EY",
+      "K",
+      "Z",
+      "OW",
+      "N"
+    ],
+    "fingerprint": [
+      "ER",
+      "EY",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Thunder cloud",
+    "phonemes": [
+      "TH",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "K",
+      "L",
+      "AW",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lightning rod",
+    "phonemes": [
+      "L",
+      "AY",
+      "T",
+      "N",
+      "IH",
+      "NG",
+      "R",
+      "AA",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "IH",
+      "AA"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lightning bolt",
+    "phonemes": [
+      "L",
+      "AY",
+      "T",
+      "N",
+      "IH",
+      "NG",
+      "B",
+      "OW",
+      "L",
+      "T"
+    ],
+    "fingerprint": [
+      "AY",
+      "IH",
+      "OW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lightning strike",
+    "phonemes": [
+      "L",
+      "AY",
+      "T",
+      "N",
+      "IH",
+      "NG",
+      "S",
+      "T",
+      "R",
+      "AY",
+      "K"
+    ],
+    "fingerprint": [
+      "AY",
+      "IH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Wildfire",
+    "phonemes": [
+      "W",
+      "AY",
+      "L",
+      "D",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Crossfire",
+    "phonemes": [
+      "K",
+      "R",
+      "AO",
+      "S",
+      "F",
+      "AY",
+      "R"
+    ],
+    "fingerprint": [
+      "AO",
+      "AY"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Rapid fire",
+    "phonemes": [
+      "R",
+      "AH",
+      "P",
+      "AH",
+      "D",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cease fire",
+    "phonemes": [
+      "S",
+      "IY",
+      "S",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Open fire",
+    "phonemes": [
+      "OW",
+      "P",
+      "AH",
+      "N",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Return fire",
+    "phonemes": [
+      "R",
+      "IH",
+      "T",
+      "ER",
+      "N",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Friendly fire",
+    "phonemes": [
+      "F",
+      "R",
+      "EH",
+      "N",
+      "D",
+      "L",
+      "IY",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "IY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Under fire",
+    "phonemes": [
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "F",
+      "AY",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bottom line",
+    "phonemes": [
+      "B",
+      "AA",
+      "T",
+      "AH",
+      "M",
+      "L",
+      "AY",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "AY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bottom dollar",
+    "phonemes": [
+      "B",
+      "AA",
+      "T",
+      "AH",
+      "M",
+      "D",
+      "AA",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "AA",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Top dollar",
+    "phonemes": [
+      "T",
+      "AA",
+      "P",
+      "D",
+      "AA",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "AA",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Million dollar",
+    "phonemes": [
+      "M",
+      "IH",
+      "L",
+      "Y",
+      "AH",
+      "N",
+      "D",
+      "AA",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AA",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Billion dollar",
+    "phonemes": [
+      "B",
+      "IH",
+      "L",
+      "Y",
+      "AH",
+      "N",
+      "D",
+      "AA",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AA",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Paper trail",
+    "phonemes": [
+      "P",
+      "EY",
+      "P",
+      "ER",
+      "T",
+      "R",
+      "EY",
+      "L"
+    ],
+    "fingerprint": [
+      "EY",
+      "ER",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Money trail",
+    "phonemes": [
+      "M",
+      "AH",
+      "N",
+      "IY",
+      "T",
+      "R",
+      "EY",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Paper chase",
+    "phonemes": [
+      "P",
+      "EY",
+      "P",
+      "ER",
+      "CH",
+      "EY",
+      "S"
+    ],
+    "fingerprint": [
+      "EY",
+      "ER",
+      "EY"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Money maker",
+    "phonemes": [
+      "M",
+      "AH",
+      "N",
+      "IY",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Game changer",
+    "phonemes": [
+      "G",
+      "EY",
+      "M",
+      "CH",
+      "EY",
+      "N",
+      "JH",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Power broker",
+    "phonemes": [
+      "P",
+      "AW",
+      "ER",
+      "B",
+      "R",
+      "OW",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AW",
+      "ER",
+      "OW",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Deal breaker",
+    "phonemes": [
+      "D",
+      "IY",
+      "L",
+      "B",
+      "R",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Record breaker",
+    "phonemes": [
+      "R",
+      "AH",
+      "K",
+      "AO",
+      "R",
+      "D",
+      "B",
+      "R",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AO R",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Groundbreaker",
+    "phonemes": [
+      "G",
+      "R",
+      "OW",
+      "AH",
+      "N",
+      "D",
+      "B",
+      "R",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tiebreaker",
+    "phonemes": [
+      "T",
+      "IY",
+      "EH",
+      "B",
+      "R",
+      "EY",
+      "AH",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "EH",
+      "EY",
+      "AH",
+      "ER"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Peacemaker",
+    "phonemes": [
+      "P",
+      "IY",
+      "S",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Matchmaker",
+    "phonemes": [
+      "M",
+      "AH",
+      "CH",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Kingmaker",
+    "phonemes": [
+      "K",
+      "IH",
+      "NG",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Rainmaker",
+    "phonemes": [
+      "R",
+      "EY",
+      "N",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Filmmaker",
+    "phonemes": [
+      "F",
+      "IH",
+      "L",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Troublemaker",
+    "phonemes": [
+      "T",
+      "R",
+      "AH",
+      "B",
+      "AH",
+      "L",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mischief maker",
+    "phonemes": [
+      "M",
+      "IH",
+      "S",
+      "CH",
+      "AH",
+      "F",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Myth maker",
+    "phonemes": [
+      "M",
+      "IH",
+      "TH",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Haymaker",
+    "phonemes": [
+      "HH",
+      "EY",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Watchmaker",
+    "phonemes": [
+      "W",
+      "AA",
+      "CH",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Clockmaker",
+    "phonemes": [
+      "K",
+      "L",
+      "AA",
+      "K",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dressmaker",
+    "phonemes": [
+      "D",
+      "R",
+      "EH",
+      "S",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bookmaker",
+    "phonemes": [
+      "B",
+      "UH",
+      "K",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "UH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lawmaker",
+    "phonemes": [
+      "L",
+      "AO",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AO",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pacemaker",
+    "phonemes": [
+      "P",
+      "EY",
+      "S",
+      "M",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Caretaker",
+    "phonemes": [
+      "K",
+      "EH",
+      "R",
+      "T",
+      "EY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Painkiller",
+    "phonemes": [
+      "P",
+      "EY",
+      "N",
+      "K",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Thriller",
+    "phonemes": [
+      "TH",
+      "R",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pillar",
+    "phonemes": [
+      "P",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Killer",
+    "phonemes": [
+      "K",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Filler",
+    "phonemes": [
+      "F",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Miller",
+    "phonemes": [
+      "M",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Driller",
+    "phonemes": [
+      "D",
+      "R",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spiller",
+    "phonemes": [
+      "S",
+      "P",
+      "IH",
+      "L",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Arsenal",
+    "phonemes": [
+      "AA",
+      "R",
+      "S",
+      "AH",
+      "N",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tactical",
+    "phonemes": [
+      "T",
+      "AH",
+      "K",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mechanical",
+    "phonemes": [
+      "M",
+      "AH",
+      "K",
+      "AH",
+      "N",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Chemical",
+    "phonemes": [
+      "K",
+      "EH",
+      "M",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Identical",
+    "phonemes": [
+      "AY",
+      "D",
+      "EH",
+      "N",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AY",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Typical",
+    "phonemes": [
+      "T",
+      "IH",
+      "P",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Critical",
+    "phonemes": [
+      "K",
+      "R",
+      "IH",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Political",
+    "phonemes": [
+      "P",
+      "AH",
+      "L",
+      "IH",
+      "T",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mythical",
+    "phonemes": [
+      "M",
+      "IH",
+      "TH",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Physical",
+    "phonemes": [
+      "F",
+      "IH",
+      "Z",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mystical",
+    "phonemes": [
+      "M",
+      "IH",
+      "S",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cynical",
+    "phonemes": [
+      "S",
+      "IH",
+      "N",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Clinical",
+    "phonemes": [
+      "K",
+      "L",
+      "IH",
+      "N",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Radical",
+    "phonemes": [
+      "R",
+      "AH",
+      "D",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Magical",
+    "phonemes": [
+      "M",
+      "AH",
+      "JH",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Logical",
+    "phonemes": [
+      "L",
+      "AA",
+      "JH",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Comical",
+    "phonemes": [
+      "K",
+      "AA",
+      "M",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tropical",
+    "phonemes": [
+      "T",
+      "R",
+      "AA",
+      "P",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Topical",
+    "phonemes": [
+      "T",
+      "AA",
+      "P",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Optical",
+    "phonemes": [
+      "AA",
+      "P",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Nautical",
+    "phonemes": [
+      "N",
+      "AO",
+      "T",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AO",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vertical",
+    "phonemes": [
+      "V",
+      "ER",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "ER",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Surgical",
+    "phonemes": [
+      "S",
+      "ER",
+      "JH",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "ER",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Numerical",
+    "phonemes": [
+      "N",
+      "UW",
+      "M",
+      "EH",
+      "R",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "UW",
+      "EH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spherical",
+    "phonemes": [
+      "S",
+      "F",
+      "EH",
+      "R",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Clerical",
+    "phonemes": [
+      "K",
+      "L",
+      "EH",
+      "R",
+      "AH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Heretical",
+    "phonemes": [
+      "HH",
+      "ER",
+      "EH",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "ER",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Theoretical",
+    "phonemes": [
+      "TH",
+      "IY",
+      "ER",
+      "EH",
+      "T",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IY",
+      "ER",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Symmetrical",
+    "phonemes": [
+      "S",
+      "AH",
+      "M",
+      "EH",
+      "T",
+      "R",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Geometrical",
+    "phonemes": [
+      "JH",
+      "IY",
+      "AH",
+      "M",
+      "EH",
+      "T",
+      "R",
+      "IH",
+      "K",
+      "AH",
+      "L"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ammunition",
+    "phonemes": [
+      "AH",
+      "M",
+      "Y",
+      "AH",
+      "N",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Demolition",
+    "phonemes": [
+      "D",
+      "EH",
+      "M",
+      "AH",
+      "L",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Recognition",
+    "phonemes": [
+      "R",
+      "EH",
+      "K",
+      "AH",
+      "G",
+      "N",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Competition",
+    "phonemes": [
+      "K",
+      "AA",
+      "M",
+      "P",
+      "AH",
+      "T",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Composition",
+    "phonemes": [
+      "K",
+      "AA",
+      "M",
+      "P",
+      "AH",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Proposition",
+    "phonemes": [
+      "P",
+      "R",
+      "AA",
+      "P",
+      "AH",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Opposition",
+    "phonemes": [
+      "AA",
+      "P",
+      "AH",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Imposition",
+    "phonemes": [
+      "IH",
+      "M",
+      "P",
+      "AH",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Disposition",
+    "phonemes": [
+      "D",
+      "IH",
+      "S",
+      "P",
+      "AH",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Expedition",
+    "phonemes": [
+      "EH",
+      "K",
+      "S",
+      "P",
+      "AH",
+      "D",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Repetition",
+    "phonemes": [
+      "R",
+      "EH",
+      "P",
+      "AH",
+      "T",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Definition",
+    "phonemes": [
+      "D",
+      "EH",
+      "F",
+      "AH",
+      "N",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Condition",
+    "phonemes": [
+      "K",
+      "AH",
+      "N",
+      "D",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tradition",
+    "phonemes": [
+      "T",
+      "R",
+      "AH",
+      "D",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ambition",
+    "phonemes": [
+      "AH",
+      "M",
+      "B",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Audition",
+    "phonemes": [
+      "AA",
+      "D",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tuition",
+    "phonemes": [
+      "T",
+      "Y",
+      "UW",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "UW",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Musician",
+    "phonemes": [
+      "M",
+      "Y",
+      "UW",
+      "Z",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "UW",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Magician",
+    "phonemes": [
+      "M",
+      "AH",
+      "JH",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Politician",
+    "phonemes": [
+      "P",
+      "AA",
+      "L",
+      "AH",
+      "T",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Technician",
+    "phonemes": [
+      "T",
+      "EH",
+      "K",
+      "N",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Electrician",
+    "phonemes": [
+      "IH",
+      "L",
+      "EH",
+      "K",
+      "T",
+      "R",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Statistician",
+    "phonemes": [
+      "S",
+      "T",
+      "AH",
+      "T",
+      "AH",
+      "S",
+      "T",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mathematician",
+    "phonemes": [
+      "M",
+      "AH",
+      "TH",
+      "AH",
+      "M",
+      "AH",
+      "T",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Nutrition",
+    "phonemes": [
+      "N",
+      "UW",
+      "T",
+      "R",
+      "IH",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "UW",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Institution",
+    "phonemes": [
+      "IH",
+      "N",
+      "S",
+      "T",
+      "IH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Constitution",
+    "phonemes": [
+      "K",
+      "AA",
+      "N",
+      "S",
+      "T",
+      "AH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Contribution",
+    "phonemes": [
+      "K",
+      "AA",
+      "N",
+      "T",
+      "R",
+      "AH",
+      "B",
+      "Y",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Distribution",
+    "phonemes": [
+      "D",
+      "IH",
+      "S",
+      "T",
+      "R",
+      "AH",
+      "B",
+      "Y",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Revolution",
+    "phonemes": [
+      "R",
+      "EH",
+      "V",
+      "AH",
+      "L",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Evolution",
+    "phonemes": [
+      "EH",
+      "V",
+      "AH",
+      "L",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Resolution",
+    "phonemes": [
+      "R",
+      "EH",
+      "Z",
+      "AH",
+      "L",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Prosecution",
+    "phonemes": [
+      "P",
+      "R",
+      "AA",
+      "S",
+      "AH",
+      "K",
+      "Y",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Execution",
+    "phonemes": [
+      "EH",
+      "K",
+      "S",
+      "AH",
+      "K",
+      "Y",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Persecution",
+    "phonemes": [
+      "P",
+      "ER",
+      "S",
+      "AH",
+      "K",
+      "Y",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "ER",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Absolution",
+    "phonemes": [
+      "AH",
+      "B",
+      "S",
+      "AH",
+      "L",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Destitution",
+    "phonemes": [
+      "D",
+      "EH",
+      "S",
+      "T",
+      "AH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Substitution",
+    "phonemes": [
+      "S",
+      "AH",
+      "B",
+      "S",
+      "T",
+      "IH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Restitution",
+    "phonemes": [
+      "R",
+      "EH",
+      "S",
+      "T",
+      "IH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "IH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Prostitution",
+    "phonemes": [
+      "P",
+      "R",
+      "AA",
+      "S",
+      "T",
+      "AH",
+      "T",
+      "UW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Confrontation",
+    "phonemes": [
+      "K",
+      "AA",
+      "N",
+      "F",
+      "R",
+      "AH",
+      "N",
+      "T",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Domination",
+    "phonemes": [
+      "D",
+      "AA",
+      "M",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Combination",
+    "phonemes": [
+      "K",
+      "AA",
+      "M",
+      "B",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Culmination",
+    "phonemes": [
+      "K",
+      "AH",
+      "L",
+      "M",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Determination",
+    "phonemes": [
+      "D",
+      "IH",
+      "T",
+      "ER",
+      "M",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Elimination",
+    "phonemes": [
+      "IH",
+      "L",
+      "IH",
+      "M",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hallucination",
+    "phonemes": [
+      "HH",
+      "AH",
+      "L",
+      "UW",
+      "S",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "UW",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Imagination",
+    "phonemes": [
+      "IH",
+      "M",
+      "AH",
+      "JH",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Intimidation",
+    "phonemes": [
+      "IH",
+      "N",
+      "T",
+      "IH",
+      "M",
+      "IH",
+      "D",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "IH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Manipulation",
+    "phonemes": [
+      "M",
+      "AH",
+      "N",
+      "IH",
+      "P",
+      "Y",
+      "AH",
+      "L",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Exaggeration",
+    "phonemes": [
+      "IH",
+      "G",
+      "Z",
+      "AH",
+      "JH",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Assassination",
+    "phonemes": [
+      "AH",
+      "S",
+      "AH",
+      "S",
+      "AH",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Proclamation",
+    "phonemes": [
+      "P",
+      "R",
+      "AA",
+      "K",
+      "L",
+      "AH",
+      "M",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Declaration",
+    "phonemes": [
+      "D",
+      "EH",
+      "K",
+      "L",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Acceleration",
+    "phonemes": [
+      "AH",
+      "K",
+      "S",
+      "EH",
+      "L",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 5,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Celebration",
+    "phonemes": [
+      "S",
+      "EH",
+      "L",
+      "AH",
+      "B",
+      "R",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Federation",
+    "phonemes": [
+      "F",
+      "EH",
+      "D",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Generation",
+    "phonemes": [
+      "JH",
+      "EH",
+      "N",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Liberation",
+    "phonemes": [
+      "L",
+      "IH",
+      "B",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Operation",
+    "phonemes": [
+      "AA",
+      "P",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Preparation",
+    "phonemes": [
+      "P",
+      "R",
+      "EH",
+      "P",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Separation",
+    "phonemes": [
+      "S",
+      "EH",
+      "P",
+      "ER",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Temptation",
+    "phonemes": [
+      "T",
+      "EH",
+      "M",
+      "T",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Plantation",
+    "phonemes": [
+      "P",
+      "L",
+      "AH",
+      "N",
+      "T",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Foundation",
+    "phonemes": [
+      "F",
+      "AW",
+      "N",
+      "D",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AW",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Salvation",
+    "phonemes": [
+      "S",
+      "AH",
+      "L",
+      "V",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Damnation",
+    "phonemes": [
+      "D",
+      "AH",
+      "M",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sensation",
+    "phonemes": [
+      "S",
+      "EH",
+      "N",
+      "S",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Inflation",
+    "phonemes": [
+      "IH",
+      "N",
+      "F",
+      "L",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stagnation",
+    "phonemes": [
+      "S",
+      "T",
+      "AH",
+      "G",
+      "N",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Frustration",
+    "phonemes": [
+      "F",
+      "R",
+      "AH",
+      "S",
+      "T",
+      "R",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Castration",
+    "phonemes": [
+      "K",
+      "AH",
+      "S",
+      "T",
+      "R",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Migration",
+    "phonemes": [
+      "M",
+      "AY",
+      "G",
+      "R",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AY",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vibration",
+    "phonemes": [
+      "V",
+      "AY",
+      "B",
+      "R",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AY",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Creation",
+    "phonemes": [
+      "K",
+      "R",
+      "IY",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IY",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Equation",
+    "phonemes": [
+      "IH",
+      "K",
+      "W",
+      "EY",
+      "ZH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vacation",
+    "phonemes": [
+      "V",
+      "EY",
+      "K",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "EY",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vocation",
+    "phonemes": [
+      "V",
+      "OW",
+      "K",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Location",
+    "phonemes": [
+      "L",
+      "OW",
+      "K",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Notation",
+    "phonemes": [
+      "N",
+      "OW",
+      "T",
+      "EY",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Devotion",
+    "phonemes": [
+      "D",
+      "IH",
+      "V",
+      "OW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Emotion",
+    "phonemes": [
+      "IH",
+      "M",
+      "OW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Promotion",
+    "phonemes": [
+      "P",
+      "R",
+      "AH",
+      "M",
+      "OW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Commotion",
+    "phonemes": [
+      "K",
+      "AH",
+      "M",
+      "OW",
+      "SH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Explosion",
+    "phonemes": [
+      "IH",
+      "K",
+      "S",
+      "P",
+      "L",
+      "OW",
+      "ZH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Erosion",
+    "phonemes": [
+      "IH",
+      "R",
+      "OW",
+      "ZH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "IH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Corrosion",
+    "phonemes": [
+      "K",
+      "ER",
+      "OW",
+      "ZH",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "ER",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Ghost rider",
+    "phonemes": [
+      "G",
+      "OW",
+      "S",
+      "T",
+      "R",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Night rider",
+    "phonemes": [
+      "N",
+      "AY",
+      "T",
+      "R",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Low rider",
+    "phonemes": [
+      "L",
+      "OW",
+      "R",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Joy rider",
+    "phonemes": [
+      "JH",
+      "OY",
+      "R",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OY",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Outsider",
+    "phonemes": [
+      "AW",
+      "T",
+      "S",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AW",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Insider",
+    "phonemes": [
+      "IH",
+      "N",
+      "S",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Provider",
+    "phonemes": [
+      "P",
+      "R",
+      "AH",
+      "V",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Divider",
+    "phonemes": [
+      "D",
+      "IH",
+      "V",
+      "AY",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "AY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spider web",
+    "phonemes": [
+      "S",
+      "P",
+      "AY",
+      "D",
+      "ER",
+      "W",
+      "EH",
+      "B"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "EH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spider man",
+    "phonemes": [
+      "S",
+      "P",
+      "AY",
+      "D",
+      "ER",
+      "M",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AY",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cold shoulder",
+    "phonemes": [
+      "K",
+      "OW",
+      "L",
+      "D",
+      "SH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bolder",
+    "phonemes": [
+      "B",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Soldier",
+    "phonemes": [
+      "S",
+      "OW",
+      "L",
+      "JH",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Older",
+    "phonemes": [
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Folder",
+    "phonemes": [
+      "F",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Smolder",
+    "phonemes": [
+      "S",
+      "M",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Boulder",
+    "phonemes": [
+      "B",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Shoulder",
+    "phonemes": [
+      "SH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Holder",
+    "phonemes": [
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stockholder",
+    "phonemes": [
+      "S",
+      "T",
+      "AA",
+      "K",
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Placeholder",
+    "phonemes": [
+      "P",
+      "L",
+      "EY",
+      "S",
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Shareholder",
+    "phonemes": [
+      "SH",
+      "EH",
+      "R",
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stakeholder",
+    "phonemes": [
+      "S",
+      "T",
+      "EY",
+      "K",
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Beholder",
+    "phonemes": [
+      "B",
+      "IY",
+      "HH",
+      "OW",
+      "L",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "OW",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Torch bearer",
+    "phonemes": [
+      "T",
+      "AO",
+      "R",
+      "CH",
+      "B",
+      "EH",
+      "R",
+      "ER"
+    ],
+    "fingerprint": [
+      "AO R",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Standard bearer",
+    "phonemes": [
+      "S",
+      "T",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "D",
+      "B",
+      "EH",
+      "R",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "EH",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pall bearer",
+    "phonemes": [
+      "P",
+      "AA",
+      "L",
+      "B",
+      "EH",
+      "R",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Truth seeker",
+    "phonemes": [
+      "T",
+      "R",
+      "UW",
+      "TH",
+      "S",
+      "IY",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "UW",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Peace keeper",
+    "phonemes": [
+      "P",
+      "IY",
+      "S",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Goal keeper",
+    "phonemes": [
+      "G",
+      "OW",
+      "L",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "OW",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Scorekeeper",
+    "phonemes": [
+      "S",
+      "K",
+      "AO",
+      "R",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "AO R",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Beekeeper",
+    "phonemes": [
+      "B",
+      "IY",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Shopkeeper",
+    "phonemes": [
+      "SH",
+      "AA",
+      "P",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Timekeeper",
+    "phonemes": [
+      "T",
+      "IY",
+      "M",
+      "IY",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "IY",
+      "IY",
+      "ER"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Innkeeper",
+    "phonemes": [
+      "IH",
+      "N",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Gatekeeper",
+    "phonemes": [
+      "G",
+      "EY",
+      "T",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "EY",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bookkeeper",
+    "phonemes": [
+      "B",
+      "UH",
+      "K",
+      "K",
+      "IY",
+      "P",
+      "ER"
+    ],
+    "fingerprint": [
+      "UH",
+      "IY",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Champion",
+    "phonemes": [
+      "CH",
+      "AH",
+      "M",
+      "P",
+      "IY",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Championship",
+    "phonemes": [
+      "CH",
+      "AH",
+      "M",
+      "P",
+      "IY",
+      "AH",
+      "N",
+      "SH",
+      "IH",
+      "P"
+    ],
+    "fingerprint": [
+      "AH",
+      "IY",
+      "AH",
+      "IH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Challenger",
+    "phonemes": [
+      "CH",
+      "AH",
+      "L",
+      "AH",
+      "N",
+      "JH",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Contender",
+    "phonemes": [
+      "K",
+      "AH",
+      "N",
+      "T",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Defender",
+    "phonemes": [
+      "D",
+      "IH",
+      "F",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Surrender",
+    "phonemes": [
+      "S",
+      "ER",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "ER",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pretender",
+    "phonemes": [
+      "P",
+      "R",
+      "IY",
+      "T",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "IY",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Offender",
+    "phonemes": [
+      "AH",
+      "F",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Vendor",
+    "phonemes": [
+      "V",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Blender",
+    "phonemes": [
+      "B",
+      "L",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Slender",
+    "phonemes": [
+      "S",
+      "L",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Gender",
+    "phonemes": [
+      "JH",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tender",
+    "phonemes": [
+      "T",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Render",
+    "phonemes": [
+      "R",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Fender",
+    "phonemes": [
+      "F",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sender",
+    "phonemes": [
+      "S",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bender",
+    "phonemes": [
+      "B",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Mender",
+    "phonemes": [
+      "M",
+      "EH",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "EH"
+    ],
+    "syllables": 1,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Splendor",
+    "phonemes": [
+      "S",
+      "P",
+      "L",
+      "EH",
+      "N",
+      "D",
+      "ER"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Abandonment",
+    "phonemes": [
+      "AH",
+      "B",
+      "AH",
+      "N",
+      "D",
+      "AH",
+      "N",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Accomplishment",
+    "phonemes": [
+      "AH",
+      "K",
+      "AA",
+      "M",
+      "P",
+      "L",
+      "IH",
+      "SH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Acknowledgment",
+    "phonemes": [
+      "AH",
+      "K",
+      "N",
+      "AA",
+      "L",
+      "IH",
+      "JH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Advertisement",
+    "phonemes": [
+      "AH",
+      "D",
+      "V",
+      "ER",
+      "T",
+      "AH",
+      "Z",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Amazement",
+    "phonemes": [
+      "AH",
+      "M",
+      "EY",
+      "Z",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Amusement",
+    "phonemes": [
+      "AH",
+      "M",
+      "Y",
+      "UW",
+      "Z",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Announcement",
+    "phonemes": [
+      "AH",
+      "N",
+      "AW",
+      "N",
+      "S",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Argument",
+    "phonemes": [
+      "AA",
+      "R",
+      "G",
+      "Y",
+      "AH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Assessment",
+    "phonemes": [
+      "AH",
+      "S",
+      "EH",
+      "S",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "EH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Astonishment",
+    "phonemes": [
+      "AH",
+      "S",
+      "T",
+      "AA",
+      "N",
+      "IH",
+      "SH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AA",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Attachment",
+    "phonemes": [
+      "AH",
+      "T",
+      "AH",
+      "CH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Commitment",
+    "phonemes": [
+      "K",
+      "AH",
+      "M",
+      "IH",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Department",
+    "phonemes": [
+      "D",
+      "IH",
+      "P",
+      "AA",
+      "R",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Disappointment",
+    "phonemes": [
+      "D",
+      "IH",
+      "S",
+      "AH",
+      "P",
+      "OY",
+      "N",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "OY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Embarrassment",
+    "phonemes": [
+      "IH",
+      "M",
+      "B",
+      "EH",
+      "R",
+      "AH",
+      "S",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Encouragement",
+    "phonemes": [
+      "EH",
+      "N",
+      "K",
+      "ER",
+      "IH",
+      "JH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Engagement",
+    "phonemes": [
+      "EH",
+      "N",
+      "G",
+      "EY",
+      "JH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Enlightenment",
+    "phonemes": [
+      "EH",
+      "N",
+      "L",
+      "AY",
+      "T",
+      "AH",
+      "N",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "AY",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Entertainment",
+    "phonemes": [
+      "EH",
+      "N",
+      "T",
+      "ER",
+      "T",
+      "EY",
+      "N",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "EY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Establishment",
+    "phonemes": [
+      "IH",
+      "S",
+      "T",
+      "AH",
+      "B",
+      "L",
+      "IH",
+      "SH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Government",
+    "phonemes": [
+      "G",
+      "AH",
+      "V",
+      "ER",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Imprisonment",
+    "phonemes": [
+      "IH",
+      "M",
+      "P",
+      "R",
+      "IH",
+      "Z",
+      "AH",
+      "N",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "IH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Improvement",
+    "phonemes": [
+      "IH",
+      "M",
+      "P",
+      "R",
+      "UW",
+      "V",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "UW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Investment",
+    "phonemes": [
+      "IH",
+      "N",
+      "V",
+      "EH",
+      "S",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Involvement",
+    "phonemes": [
+      "IH",
+      "N",
+      "V",
+      "AA",
+      "L",
+      "V",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AA",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Management",
+    "phonemes": [
+      "M",
+      "AH",
+      "N",
+      "AH",
+      "JH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Measurement",
+    "phonemes": [
+      "M",
+      "EH",
+      "ZH",
+      "ER",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Movement",
+    "phonemes": [
+      "M",
+      "UW",
+      "V",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "UW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Punishment",
+    "phonemes": [
+      "P",
+      "AH",
+      "N",
+      "IH",
+      "SH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Replacement",
+    "phonemes": [
+      "R",
+      "IH",
+      "P",
+      "L",
+      "EY",
+      "S",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "EY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Requirement",
+    "phonemes": [
+      "R",
+      "IH",
+      "K",
+      "W",
+      "AY",
+      "R",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "AY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Resentment",
+    "phonemes": [
+      "R",
+      "IH",
+      "Z",
+      "EH",
+      "N",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IH",
+      "EH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Settlement",
+    "phonemes": [
+      "S",
+      "EH",
+      "T",
+      "AH",
+      "L",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Statement",
+    "phonemes": [
+      "S",
+      "T",
+      "EY",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "EY",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Tournament",
+    "phonemes": [
+      "T",
+      "UH",
+      "R",
+      "N",
+      "AH",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "UH",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Treatment",
+    "phonemes": [
+      "T",
+      "R",
+      "IY",
+      "T",
+      "M",
+      "AH",
+      "N",
+      "T"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dark matter",
+    "phonemes": [
+      "D",
+      "AA",
+      "R",
+      "K",
+      "M",
+      "AH",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Dark chapter",
+    "phonemes": [
+      "D",
+      "AA",
+      "R",
+      "K",
+      "CH",
+      "AH",
+      "P",
+      "T",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sharp dagger",
+    "phonemes": [
+      "SH",
+      "AA",
+      "R",
+      "P",
+      "D",
+      "AH",
+      "G",
+      "ER"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Car jacker",
+    "phonemes": [
+      "K",
+      "AA",
+      "R",
+      "JH",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AA R",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hijacker",
+    "phonemes": [
+      "HH",
+      "AY",
+      "JH",
+      "AH",
+      "K",
+      "ER"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "ER"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cracker jack",
+    "phonemes": [
+      "K",
+      "R",
+      "AH",
+      "K",
+      "ER",
+      "JH",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lumberjack",
+    "phonemes": [
+      "L",
+      "AH",
+      "M",
+      "B",
+      "ER",
+      "JH",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Flapjack",
+    "phonemes": [
+      "F",
+      "L",
+      "AH",
+      "P",
+      "JH",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Crackerjack",
+    "phonemes": [
+      "K",
+      "R",
+      "AH",
+      "K",
+      "ER",
+      "JH",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Knapsack",
+    "phonemes": [
+      "N",
+      "AH",
+      "P",
+      "S",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Setback",
+    "phonemes": [
+      "S",
+      "EH",
+      "T",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "EH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Kickback",
+    "phonemes": [
+      "K",
+      "IH",
+      "K",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cutback",
+    "phonemes": [
+      "K",
+      "AH",
+      "T",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Drawback",
+    "phonemes": [
+      "D",
+      "R",
+      "AO",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AO",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Throwback",
+    "phonemes": [
+      "TH",
+      "R",
+      "OW",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Flashback",
+    "phonemes": [
+      "F",
+      "L",
+      "AH",
+      "SH",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Fallback",
+    "phonemes": [
+      "F",
+      "AO",
+      "L",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AO",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Callback",
+    "phonemes": [
+      "K",
+      "AH",
+      "L",
+      "P",
+      "AW",
+      "N",
+      "D",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "AW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Feedback",
+    "phonemes": [
+      "F",
+      "IY",
+      "D",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Greenback",
+    "phonemes": [
+      "G",
+      "R",
+      "IY",
+      "N",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Horseback",
+    "phonemes": [
+      "HH",
+      "AO",
+      "R",
+      "S",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AO R",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Quarterback",
+    "phonemes": [
+      "K",
+      "W",
+      "AO",
+      "R",
+      "T",
+      "ER",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AO R",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Razor back",
+    "phonemes": [
+      "R",
+      "EY",
+      "Z",
+      "ER",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "EY",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Hammer back",
+    "phonemes": [
+      "HH",
+      "AH",
+      "M",
+      "ER",
+      "B",
+      "AH",
+      "K"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Thunder clap",
+    "phonemes": [
+      "TH",
+      "AH",
+      "N",
+      "D",
+      "ER",
+      "K",
+      "L",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "AH",
+      "ER",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Booby trap",
+    "phonemes": [
+      "B",
+      "UW",
+      "B",
+      "IY",
+      "T",
+      "R",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "UW",
+      "IY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Rattrap",
+    "phonemes": [
+      "R",
+      "AH",
+      "T",
+      "R",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "AH",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Speed trap",
+    "phonemes": [
+      "S",
+      "P",
+      "IY",
+      "D",
+      "T",
+      "R",
+      "AH",
+      "P"
+    ],
+    "fingerprint": [
+      "IY",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Sales pitch",
+    "phonemes": [
+      "S",
+      "EY",
+      "L",
+      "Z",
+      "P",
+      "IH",
+      "CH"
+    ],
+    "fingerprint": [
+      "EY",
+      "IH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Last ditch",
+    "phonemes": [
+      "L",
+      "AH",
+      "S",
+      "T",
+      "D",
+      "IH",
+      "CH"
+    ],
+    "fingerprint": [
+      "AH",
+      "IH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Light switch",
+    "phonemes": [
+      "L",
+      "AY",
+      "T",
+      "S",
+      "W",
+      "IH",
+      "CH"
+    ],
+    "fingerprint": [
+      "AY",
+      "IH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Bait and switch",
+    "phonemes": [
+      "B",
+      "EY",
+      "T",
+      "AH",
+      "N",
+      "D",
+      "S",
+      "W",
+      "IH",
+      "CH"
+    ],
+    "fingerprint": [
+      "EY",
+      "AH",
+      "IH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Cold hearted",
+    "phonemes": [
+      "K",
+      "OW",
+      "L",
+      "D",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Half hearted",
+    "phonemes": [
+      "HH",
+      "AH",
+      "F",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "AH",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Whole hearted",
+    "phonemes": [
+      "HH",
+      "OW",
+      "L",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Faint hearted",
+    "phonemes": [
+      "F",
+      "EY",
+      "N",
+      "T",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "EY",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Brave hearted",
+    "phonemes": [
+      "B",
+      "R",
+      "EY",
+      "V",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "EY",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Lion hearted",
+    "phonemes": [
+      "L",
+      "AY",
+      "AH",
+      "N",
+      "HH",
+      "AA",
+      "R",
+      "T",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "AY",
+      "AH",
+      "AA R",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Single minded",
+    "phonemes": [
+      "S",
+      "IH",
+      "NG",
+      "G",
+      "AH",
+      "L",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Simple minded",
+    "phonemes": [
+      "S",
+      "IH",
+      "M",
+      "P",
+      "AH",
+      "L",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "IH",
+      "AH",
+      "AY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Narrow minded",
+    "phonemes": [
+      "N",
+      "EH",
+      "R",
+      "OW",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "EH",
+      "OW",
+      "AY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Small minded",
+    "phonemes": [
+      "S",
+      "M",
+      "AO",
+      "L",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "AO",
+      "AY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Open minded",
+    "phonemes": [
+      "OW",
+      "P",
+      "AH",
+      "N",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AY",
+      "AH"
+    ],
+    "syllables": 4,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Weak minded",
+    "phonemes": [
+      "W",
+      "IY",
+      "K",
+      "M",
+      "AY",
+      "N",
+      "D",
+      "AH",
+      "D"
+    ],
+    "fingerprint": [
+      "IY",
+      "AY",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Strong willed",
+    "phonemes": [
+      "S",
+      "T",
+      "R",
+      "AO",
+      "NG",
+      "W",
+      "IH",
+      "L",
+      "D"
+    ],
+    "fingerprint": [
+      "AO",
+      "IH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Strong armed",
+    "phonemes": [
+      "S",
+      "T",
+      "R",
+      "AO",
+      "NG",
+      "AA",
+      "R",
+      "M",
+      "D"
+    ],
+    "fingerprint": [
+      "AO",
+      "AA R"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Soft spoken",
+    "phonemes": [
+      "S",
+      "AA",
+      "F",
+      "T",
+      "S",
+      "P",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Outspoken",
+    "phonemes": [
+      "AW",
+      "T",
+      "S",
+      "P",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AW",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Unspoken",
+    "phonemes": [
+      "AH",
+      "N",
+      "S",
+      "P",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AH",
+      "OW",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Woken",
+    "phonemes": [
+      "W",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Broken",
+    "phonemes": [
+      "B",
+      "R",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Token",
+    "phonemes": [
+      "T",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Spoken",
+    "phonemes": [
+      "S",
+      "P",
+      "OW",
+      "K",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stolen",
+    "phonemes": [
+      "S",
+      "T",
+      "OW",
+      "L",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Frozen",
+    "phonemes": [
+      "F",
+      "R",
+      "OW",
+      "Z",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Golden",
+    "phonemes": [
+      "G",
+      "OW",
+      "L",
+      "D",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Chosen",
+    "phonemes": [
+      "CH",
+      "OW",
+      "Z",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Woven",
+    "phonemes": [
+      "W",
+      "OW",
+      "V",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Swollen",
+    "phonemes": [
+      "S",
+      "W",
+      "OW",
+      "L",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Molten",
+    "phonemes": [
+      "M",
+      "OW",
+      "L",
+      "T",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Pollen",
+    "phonemes": [
+      "P",
+      "AA",
+      "L",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Fallen",
+    "phonemes": [
+      "F",
+      "AA",
+      "L",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "AA",
+      "AH"
+    ],
+    "syllables": 2,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stolen crown",
+    "phonemes": [
+      "S",
+      "T",
+      "OW",
+      "L",
+      "AH",
+      "N",
+      "K",
+      "R",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Broken down",
+    "phonemes": [
+      "B",
+      "R",
+      "OW",
+      "K",
+      "AH",
+      "N",
+      "D",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Frozen ground",
+    "phonemes": [
+      "F",
+      "R",
+      "OW",
+      "Z",
+      "AH",
+      "N",
+      "G",
+      "R",
+      "AW",
+      "N",
+      "D"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Golden crown",
+    "phonemes": [
+      "G",
+      "OW",
+      "L",
+      "D",
+      "AH",
+      "N",
+      "K",
+      "R",
+      "AW",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AW"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Chosen one",
+    "phonemes": [
+      "CH",
+      "OW",
+      "Z",
+      "AH",
+      "N",
+      "W",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Broken gun",
+    "phonemes": [
+      "B",
+      "R",
+      "OW",
+      "K",
+      "AH",
+      "N",
+      "G",
+      "AH",
+      "N"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AH"
+    ],
+    "syllables": 3,
+    "source": "corpus"
+  },
+  {
+    "phrase": "Stolen funds",
+    "phonemes": [
+      "S",
+      "T",
+      "OW",
+      "L",
+      "AH",
+      "N",
+      "F",
+      "AH",
+      "N",
+      "D",
+      "Z"
+    ],
+    "fingerprint": [
+      "OW",
+      "AH",
+      "AH"
     ],
     "syllables": 3,
     "source": "corpus"
