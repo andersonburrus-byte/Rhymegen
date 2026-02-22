@@ -4,6 +4,11 @@ Run once locally: python scripts/generate_wordlist.py
 Outputs:
   data/wordlist.json       — multisyllabic words with phonemes + fingerprint
   data/phoneme_lookup.json — flat word→phonemes dict (used by matching.py at runtime)
+
+Proper noun filtering:
+  Uses wordfreq English frequency scores to exclude surnames and obscure proper nouns.
+  Words below MIN_WORD_FREQ are dropped from the WORDLIST (they stay in phoneme_lookup
+  so they can still be used to resolve phrases the user types in).
 """
 
 import nltk
@@ -11,14 +16,42 @@ import json
 import os
 import re
 
-# Ensure cmudict is available
+# wordfreq must be installed: pip install wordfreq
+try:
+    from wordfreq import word_frequency
+    HAS_WORDFREQ = True
+except ImportError:
+    HAS_WORDFREQ = False
+    print("WARNING: wordfreq not installed. Run: pip install wordfreq")
+    print("  Continuing without frequency filtering — proper nouns will not be removed.")
+
+# Ensure NLTK data is available
 nltk.download('cmudict', quiet=True)
+nltk.download('names', quiet=True)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 os.makedirs(DATA_DIR, exist_ok=True)
 
 VOWELS = {"IH", "UH", "AH", "EH", "ER", "IY", "EY", "AY", "OW", "UW", "AO", "AA", "AW", "OY"}
+
+# ── Proper noun filter settings ───────────────────────────────────────────────
+# Minimum wordfreq English frequency to appear in wordlist results.
+# wordfreq scores range from ~1e-9 (extremely rare) to ~0.07 (most common words).
+# 1e-6 keeps: "hurricane", "bicycle", "envelope" — drops: "shumaker", "nunemaker"
+MIN_WORD_FREQ = 1e-6
+
+# Surname-heavy suffixes — words matching these AND below freq threshold get extra scrutiny
+SURNAME_SUFFIXES = re.compile(
+    r'(berg|stein|mann|feld|baum|haus|maker|wick|worth|burg|ford|son|ton|'
+    r'ley|ner|ger|owski|ewski|ski|icz|wicz|kov|ova|ian|yan|'
+    r'aaberg|enberg|enberg)$'
+)
+
+# Build NLTK first-name set for additional filtering
+from nltk.corpus import names as nltk_names
+FIRST_NAMES = set(n.lower() for n in nltk_names.words())
+# ─────────────────────────────────────────────────────────────────────────────
 
 
 def extract_fingerprint(phonemes):
@@ -37,11 +70,51 @@ def extract_fingerprint(phonemes):
     return fingerprint
 
 
+def is_useful_word(word):
+    """
+    Return True if the word should appear in rhyme results.
+    Filters out surnames, obscure proper nouns, and junk entries.
+    """
+    # Skip possessives and contractions in results (they're fine in phoneme_lookup)
+    if "'" in word:
+        return False
+
+    # Skip words with non-alpha characters
+    if not re.match(r'^[a-z]+$', word):
+        return False
+
+    # Very short words are single-syllable candidates — already filtered by fp length
+    # but double-check
+    if len(word) < 3:
+        return False
+
+    if not HAS_WORDFREQ:
+        return True
+
+    freq = word_frequency(word, 'en')
+
+    # Hard drop: frequency below threshold — almost certainly a surname or proper noun
+    if freq < MIN_WORD_FREQ:
+        return False
+
+    # Borderline zone (1e-6 to 5e-6): apply surname suffix heuristic as extra check
+    if freq < 5e-6 and SURNAME_SUFFIXES.search(word):
+        return False
+
+    # NLTK first-names list: only drop if also low frequency
+    # (don't drop "martin", "dean", "warren" — they're real words too)
+    if word in FIRST_NAMES and freq < 2e-6:
+        return False
+
+    return True
+
+
 entries = nltk.corpus.cmudict.entries()  # list of (word, phonemes)
 
 seen = set()
 wordlist = []
 phoneme_lookup = {}
+filtered_count = 0
 
 for word, phonemes in entries:
     # Skip duplicate pronunciations — keep first (most common)
@@ -62,6 +135,14 @@ for word, phonemes in entries:
     if len(fp) < 2:
         continue
 
+    # Always add to phoneme_lookup (used to resolve user's input phrases)
+    phoneme_lookup[word] = clean
+
+    # Apply proper noun filter before adding to wordlist (search results)
+    if not is_useful_word(word):
+        filtered_count += 1
+        continue
+
     wordlist.append({
         "phrase": word,
         "phonemes": clean,
@@ -69,15 +150,14 @@ for word, phonemes in entries:
         "syllables": len(fp),
         "source": "wordlist"
     })
-    phoneme_lookup[word] = clean
 
 # Write wordlist.json
 wordlist_path = os.path.join(DATA_DIR, 'wordlist.json')
 with open(wordlist_path, 'w') as f:
     json.dump(wordlist, f)
 
-# Write phoneme_lookup.json (all words including single-syllable, for runtime lookup)
-# Re-scan to include single-syllable words so matching.py can resolve every word in a phrase
+# Write phoneme_lookup.json — includes ALL words (even filtered ones) so
+# matching.py can resolve any word the user types, including names
 phoneme_lookup_full = {}
 seen2 = set()
 for word, phonemes in nltk.corpus.cmudict.entries():
@@ -93,7 +173,8 @@ lookup_path = os.path.join(DATA_DIR, 'phoneme_lookup.json')
 with open(lookup_path, 'w') as f:
     json.dump(phoneme_lookup_full, f)
 
-print(f"Generated {len(wordlist)} wordlist entries (multisyllabic only)")
+print(f"Generated {len(wordlist)} wordlist entries (multisyllabic, filtered)")
+print(f"  Filtered out: {filtered_count} proper nouns / obscure words")
 print(f"Generated {len(phoneme_lookup_full)} phoneme lookup entries (all words)")
 print(f"Output: {wordlist_path}")
 print(f"Output: {lookup_path}")

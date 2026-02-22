@@ -3,19 +3,21 @@ import { useState, useCallback } from "react";
 import { InputZone } from "@/components/InputZone";
 import { ResultsZone } from "@/components/ResultsZone";
 
-interface RhymeResult {
+export interface RhymeResult {
   phrase: string;
   tier: number;
   score: number;
   corpus: boolean;
+  aiScore?: number;
 }
 
-interface RhymeResponse {
+export interface RhymeResponse {
   results: RhymeResult[];
   pattern: string | null;
   syllables: number | null;
   warnings: string[];
   count: number;
+  aiReranked?: boolean;
   error?: string;
   message?: string;
 }

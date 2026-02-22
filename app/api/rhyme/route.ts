@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { findRhymes } from "@/lib/matcher";
+import { rerank, RERANK_POOL } from "@/lib/reranker";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
@@ -27,8 +28,26 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const output = findRhymes(phrase, count);
-    return NextResponse.json(output);
+    // Step 1: phonetic matching — fetch a larger pool for AI to rerank from
+    const pool = Math.max(count, RERANK_POOL);
+    const output = findRhymes(phrase, pool);
+
+    if (output.results.length === 0 || output.error) {
+      return NextResponse.json(output);
+    }
+
+    // Step 2: AI reranking (gracefully degrades if API key missing or call fails)
+    const reranked = await rerank(output.results, phrase);
+
+    // Step 3: trim to requested count after reranking
+    const trimmed = reranked.slice(0, count);
+
+    return NextResponse.json({
+      ...output,
+      results: trimmed,
+      count: trimmed.length,
+      aiReranked: trimmed.some((r) => r.aiScore !== undefined),
+    });
   } catch (err) {
     console.error("matcher error:", err);
     return NextResponse.json(

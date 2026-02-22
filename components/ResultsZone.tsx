@@ -11,6 +11,7 @@ interface Result {
   tier: number;
   score: number;
   corpus: boolean;
+  aiScore?: number;
 }
 
 interface ResultsData {
@@ -19,6 +20,7 @@ interface ResultsData {
   syllables: number | null;
   warnings: string[];
   count: number;
+  aiReranked?: boolean;
   error?: string;
   message?: string;
 }
@@ -77,7 +79,7 @@ export function ResultsZone({ data, loading, error }: ResultsZoneProps) {
     );
   }
 
-  // Group results by tier
+  // Group results by tier — AI reranking reshuffles within each tier
   const byTier: Record<number, Result[]> = {};
   for (const r of data.results) {
     if (!byTier[r.tier]) byTier[r.tier] = [];
@@ -93,7 +95,17 @@ export function ResultsZone({ data, loading, error }: ResultsZoneProps) {
           {data.pattern && data.syllables && (
             <PatternDisplay pattern={data.pattern} syllables={data.syllables} />
           )}
-          <QualitySummary results={data.results} total={data.count} />
+          <div className="flex items-center gap-3">
+            <QualitySummary results={data.results} total={data.count} />
+            {data.aiReranked && (
+              <span
+                className="inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-xs font-medium bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300"
+                title="Results reranked by AI for rap usability"
+              >
+                ✦ AI ranked
+              </span>
+            )}
+          </div>
         </div>
       </div>
 
