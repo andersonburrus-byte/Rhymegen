@@ -11,6 +11,24 @@ export interface RhymeResult {
   aiScore?: number;
 }
 
+export interface CorpusMiss {
+  phrase: string;
+  fingerprint: string[];
+  reason: string;
+}
+
+export interface MatchDebug {
+  inputPhrase: string;
+  resolvedPhonemes: string[];
+  fingerprint: string[];
+  syllables: number;
+  totalEntriesChecked: number;
+  corpusChecked: number;
+  corpusMisses: CorpusMiss[];
+  tierCounts: Record<number, number>;
+  dedupDropped: number;
+}
+
 export interface RhymeResponse {
   results: RhymeResult[];
   pattern: string | null;
@@ -18,6 +36,7 @@ export interface RhymeResponse {
   warnings: string[];
   count: number;
   aiReranked?: boolean;
+  debug?: MatchDebug;
   error?: string;
   message?: string;
 }
@@ -51,6 +70,47 @@ export default function Home() {
 
       const json: RhymeResponse = await res.json();
       setData(json);
+
+      // ── Browser console debug log ──────────────────────────────────────────
+      if (json.debug) {
+        const d = json.debug;
+        const t = d.tierCounts;
+        console.groupCollapsed(
+          `%c[RhymeGen] "${trimmed}"  %c${json.pattern ?? "—"}  %c${d.syllables} syl`,
+          "color:#a78bfa;font-weight:bold",
+          "color:#34d399",
+          "color:#94a3b8"
+        );
+        console.log("Resolved phonemes:", d.resolvedPhonemes.join(" "));
+        console.log(
+          `Entries checked: ${d.totalEntriesChecked} total / ${d.corpusChecked} corpus`
+        );
+        console.log(
+          `Tier breakdown (pre-dedup):  T1=${t[1] ?? 0}  T2=${t[2] ?? 0}  T3=${t[3] ?? 0}  T4=${t[4] ?? 0}`
+        );
+        console.log(`Dedup dropped: ${d.dedupDropped}`);
+        if (json.warnings?.length) {
+          console.warn("Input warnings:", json.warnings);
+        }
+        if (d.corpusMisses.length > 0) {
+          console.groupCollapsed(
+            `%cCorpus misses (${d.corpusMisses.length})`,
+            "color:#f87171"
+          );
+          for (const m of d.corpusMisses) {
+            console.log(
+              `%c✗ "${m.phrase}"%c  [${m.fingerprint.join(" · ")}]  ${m.reason}`,
+              "color:#fbbf24",
+              "color:#94a3b8"
+            );
+          }
+          console.groupEnd();
+        } else {
+          console.log("%c✓ All corpus entries matched or expected to miss", "color:#34d399");
+        }
+        console.groupEnd();
+      }
+      // ────────────────────────────────────────────────────────────────────────
     } catch {
       setError("Network error. Check your connection and try again.");
     } finally {

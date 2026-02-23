@@ -39,12 +39,31 @@ export interface RhymeResult {
   corpus: boolean;
 }
 
+export interface CorpusMiss {
+  phrase: string;
+  fingerprint: string[];
+  reason: string; // why it didn't match the input
+}
+
+export interface MatchDebug {
+  inputPhrase: string;
+  resolvedPhonemes: string[];
+  fingerprint: string[];
+  syllables: number;
+  totalEntriesChecked: number;
+  corpusChecked: number;
+  corpusMisses: CorpusMiss[];     // corpus entries that were wrong syllable count or wrong tier
+  tierCounts: Record<number, number>; // how many results per tier (before dedup)
+  dedupDropped: number;
+}
+
 export interface MatchOutput {
   results: RhymeResult[];
   pattern: string | null;
   syllables: number | null;
   warnings: string[];
   count: number;
+  debug?: MatchDebug;
   error?: string;
   message?: string;
 }
@@ -236,9 +255,25 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
 
   // Match & score
   const results: RhymeResult[] = [];
+  const corpusMisses: CorpusMiss[] = [];
+  let totalChecked = 0;
+  let corpusChecked = 0;
 
   for (const entry of allEntries) {
-    if (entry.syllables !== syllables) continue;
+    totalChecked++;
+    const isCorpus = entry.source === "corpus";
+    if (isCorpus) corpusChecked++;
+
+    if (entry.syllables !== syllables) {
+      if (isCorpus) {
+        corpusMisses.push({
+          phrase: entry.phrase,
+          fingerprint: entry.fingerprint ?? [],
+          reason: `syllable count ${entry.syllables} ≠ input ${syllables}`,
+        });
+      }
+      continue;
+    }
     if (!entry.fingerprint?.length) continue;
 
     const scored = scoreEntry(entry.fingerprint, fingerprint);
@@ -246,8 +281,15 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
     const [score, tier] = scored;
     if (score === 0) continue;
 
-    const isCorpus = entry.source === "corpus";
     const finalScore = applyCorpusBonus(score, tier, isCorpus);
+
+    if (isCorpus && tier >= 3) {
+      corpusMisses.push({
+        phrase: entry.phrase,
+        fingerprint: entry.fingerprint,
+        reason: `tier ${tier} — entry fp [${entry.fingerprint.join(",")}] vs input [${fingerprint.join(",")}]`,
+      });
+    }
 
     results.push({
       phrase: entry.phrase,
@@ -256,6 +298,9 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
       corpus: isCorpus,
     });
   }
+
+  const tierCounts: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0 };
+  for (const r of results) tierCounts[r.tier] = (tierCounts[r.tier] ?? 0) + 1;
 
   results.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
 
@@ -267,11 +312,12 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
   //    when their singular already appears in the list.
   const seenPhrases = new Set<string>();
   const deduped: RhymeResult[] = [];
+  let dedupDropped = 0;
   for (const r of results) {
     const lower = r.phrase.toLowerCase();
 
     // Exact-match dedup (handles "Dinosaur" corpus + "dinosaur" wordlist)
-    if (seenPhrases.has(lower)) continue;
+    if (seenPhrases.has(lower)) { dedupDropped++; continue; }
 
     const words = lower.split(/\s+/);
     // Only apply plural dedup to single-word results
@@ -292,7 +338,7 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
       ) {
         isSuperfluous = true;
       }
-      if (isSuperfluous) continue;
+      if (isSuperfluous) { dedupDropped++; continue; }
     }
     seenPhrases.add(lower);
     deduped.push(r);
@@ -300,11 +346,24 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
 
   const trimmed = deduped.slice(0, count);
 
+  const debug: MatchDebug = {
+    inputPhrase: phrase,
+    resolvedPhonemes: allPhonemes,
+    fingerprint,
+    syllables,
+    totalEntriesChecked: totalChecked,
+    corpusChecked,
+    corpusMisses,
+    tierCounts,
+    dedupDropped,
+  };
+
   return {
     results: trimmed,
     pattern: patternStr,
     syllables,
     warnings,
     count: trimmed.length,
+    debug,
   };
 }
