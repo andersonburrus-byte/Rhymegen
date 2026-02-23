@@ -259,24 +259,32 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
 
   results.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
 
-  // ── Plural deduplication ─────────────────────────────────────────────────
-  // If a singular form already appears in results, drop its simple plural.
-  // Only applies to single-word results ending in -s or -es where removing
-  // the suffix yields another result already seen.
+  // ── Deduplication ────────────────────────────────────────────────────────
+  // 1. Exact duplicates: same phrase from both corpus + wordlist (case-insensitive).
+  //    Results are sorted by score desc, so the higher-scoring copy comes first
+  //    and the lower-scoring duplicate is silently dropped.
+  // 2. Plural duplicates: single-word results ending in -s/-es/-ers are dropped
+  //    when their singular already appears in the list.
   const seenPhrases = new Set<string>();
   const deduped: RhymeResult[] = [];
   for (const r of results) {
     const lower = r.phrase.toLowerCase();
+
+    // Exact-match dedup (handles "Dinosaur" corpus + "dinosaur" wordlist)
+    if (seenPhrases.has(lower)) continue;
+
     const words = lower.split(/\s+/);
-    // Only apply to single-word results (avoids stripping 's' from phrases)
+    // Only apply plural dedup to single-word results
     if (words.length === 1) {
       const word = words[0];
       let isSuperfluous = false;
-      // Check -es plural (e.g. "crusaders" → "crusader")
+      // -ers  e.g. "crusaders" when "crusader" already seen
       if (word.endsWith("ers") && seenPhrases.has(word.slice(0, -1))) {
         isSuperfluous = true;
+      // -es   e.g. "tornadoes" when "tornado" already seen
       } else if (word.endsWith("es") && seenPhrases.has(word.slice(0, -2))) {
         isSuperfluous = true;
+      // -s    e.g. "dinosaurs" when "dinosaur" already seen
       } else if (
         word.endsWith("s") &&
         !word.endsWith("ss") &&
