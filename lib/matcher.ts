@@ -12,6 +12,17 @@ const TIER2_THRESHOLD = 0.6;
 const TIER_BASE: Record<number, number> = { 1: 100, 2: 70, 3: 40, 4: 20 };
 const INTERIOR_BONUS_PER_MATCH = 8;
 const CORPUS_BONUS = 25;
+
+// ── Multi-word combination constants ─────────────────────────────────────────
+const MAX_COMBO_RESULTS = 1000;
+const MAX_PREFIX_SCAN = 2000;
+const COMBO_TIEBREAK_PENALTY = 1;
+const FREQ_BONUS_TIERS: [number, number][] = [
+  [1e-3, 5],  // Very common words
+  [1e-4, 3],  // Common words
+  [1e-5, 1],  // Uncommon but real
+];
+const MAX_PER_PREFIX = 2; // Diversity cap per first word
 // ─────────────────────────────────────────────────────────────────────────────
 
 const VOWELS = new Set([
@@ -20,8 +31,8 @@ const VOWELS = new Set([
 ]);
 
 // Normalise variant CMU phonemes to their canonical form.
-// AE ("cat") → AH keeps short-a words consistent with the corpus notation.
-const PHONEME_NORM: Record<string, string> = { AE: "AH" };
+// AE ("cat") → EH groups short front vowels so "carry"/"scary"/"harry" match.
+const PHONEME_NORM: Record<string, string> = { AE: "EH" };
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 export interface CorpusEntry {
@@ -68,6 +79,18 @@ export interface MatchOutput {
   message?: string;
 }
 
+// ── Combo index types ────────────────────────────────────────────────────────
+interface ComboEntry {
+  w: string;
+  fp: string[];
+  f: number;
+}
+
+interface ComboIndex {
+  by_syl: Record<string, ComboEntry[]>;
+  by_final: Record<string, Record<string, ComboEntry[]>>;
+}
+
 // ── Data loading (cached at module level) ────────────────────────────────────
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -78,6 +101,7 @@ function loadJSON<T>(filename: string): T {
 
 let _allEntries: CorpusEntry[] | null = null;
 let _phonemeLookup: Record<string, string[]> | null = null;
+let _comboIndex: ComboIndex | null = null;
 
 function getAllEntries(): CorpusEntry[] {
   if (!_allEntries) {
@@ -93,6 +117,18 @@ function getPhonemeLookup(): Record<string, string[]> {
     _phonemeLookup = loadJSON<Record<string, string[]>>("phoneme_lookup.json");
   }
   return _phonemeLookup;
+}
+
+function getComboIndex(): ComboIndex {
+  if (!_comboIndex) {
+    const comboPath = path.join(DATA_DIR, "combo_index.json");
+    if (fs.existsSync(comboPath)) {
+      _comboIndex = loadJSON<ComboIndex>("combo_index.json");
+    } else {
+      _comboIndex = { by_syl: {}, by_final: {} };
+    }
+  }
+  return _comboIndex;
 }
 
 // ── Fingerprint extraction ────────────────────────────────────────────────────
@@ -194,6 +230,133 @@ function applyCorpusBonus(score: number, tier: number, isCorpus: boolean): numbe
   const tierFloors: Record<number, number> = { 1: 100, 2: 70, 3: 40, 4: 20 };
   const nextTierFloor = tierFloors[tier - 1] ?? 999;
   return Math.min(score + CORPUS_BONUS, nextTierFloor - 1);
+}
+
+// ── Multi-word combination ──────────────────────────────────────────────────
+function comboFreqBonus(entries: ComboEntry[]): number {
+  const minFreq = Math.min(...entries.map((e) => e.f ?? 0));
+  for (const [threshold, bonus] of FREQ_BONUS_TIERS) {
+    if (minFreq >= threshold) return bonus;
+  }
+  return 0;
+}
+
+function generateCombos(
+  inputFp: string[],
+  comboIndex: ComboIndex,
+  existingPhrases: Set<string>,
+  count: number
+): RhymeResult[] {
+  const n = inputFp.length;
+  if (n < 2) return [];
+
+  const targetFinal = inputFp[n - 1];
+  const bySyl = comboIndex.by_syl;
+  const byFinal = comboIndex.by_final;
+  const combos: RhymeResult[] = [];
+  const seenPhrases = new Set<string>();
+
+  // ── 2-word combos ──────────────────────────────────────────────────────
+  const numSplits = n - 1;
+  const perSplitCap = Math.floor(MAX_COMBO_RESULTS / Math.max(numSplits, 1));
+
+  for (let split = 1; split < n; split++) {
+    const suffixSyl = n - split;
+    const prefixSyl = split;
+
+    const suffixEntries = byFinal[targetFinal]?.[String(suffixSyl)] ?? [];
+    if (suffixEntries.length === 0) continue;
+
+    const prefixEntries = bySyl[String(prefixSyl)] ?? [];
+    if (prefixEntries.length === 0) continue;
+
+    const scanPrefixes = prefixEntries.slice(0, MAX_PREFIX_SCAN);
+    let splitFound = 0;
+
+    for (const suffix of suffixEntries) {
+      for (const prefix of scanPrefixes) {
+        const combinedFp = [...prefix.fp, ...suffix.fp];
+        const scored = scoreEntry(combinedFp, inputFp);
+        if (!scored) continue;
+        const [score, tier] = scored;
+        if (score === 0 || tier > 3) continue;
+
+        const phrase = prefix.w + " " + suffix.w;
+        const phraseLower = phrase.toLowerCase();
+        if (seenPhrases.has(phraseLower) || existingPhrases.has(phraseLower)) continue;
+        seenPhrases.add(phraseLower);
+
+        const freqBonus = comboFreqBonus([prefix, suffix]);
+        const finalScore = score - COMBO_TIEBREAK_PENALTY + freqBonus;
+
+        combos.push({ phrase, tier, score: finalScore, corpus: false });
+        splitFound++;
+        if (splitFound >= perSplitCap) break;
+      }
+      if (splitFound >= perSplitCap) break;
+    }
+  }
+
+  // ── 3-word combos (only for 3-4 syllable inputs) ───────────────────────
+  if (n <= 4) {
+    for (let s1 = 1; s1 < n - 1; s1++) {
+      for (let s2 = s1 + 1; s2 < n; s2++) {
+        const syl3 = n - s2;
+        const w3Entries = byFinal[targetFinal]?.[String(syl3)] ?? [];
+        if (w3Entries.length === 0) continue;
+
+        const w1Entries = bySyl[String(s1)] ?? [];
+        const w2Entries = bySyl[String(s2 - s1)] ?? [];
+        if (w1Entries.length === 0 || w2Entries.length === 0) continue;
+
+        const scanW1 = w1Entries.slice(0, 300);
+        const scanW2 = w2Entries.slice(0, 300);
+
+        for (const w3 of w3Entries) {
+          for (const w2 of scanW2) {
+            for (const w1 of scanW1) {
+              const combinedFp = [...w1.fp, ...w2.fp, ...w3.fp];
+              const scored = scoreEntry(combinedFp, inputFp);
+              if (!scored) continue;
+              const [score, tier] = scored;
+              if (score === 0 || tier > 3) continue;
+
+              const phrase = w1.w + " " + w2.w + " " + w3.w;
+              const phraseLower = phrase.toLowerCase();
+              if (seenPhrases.has(phraseLower) || existingPhrases.has(phraseLower)) continue;
+              seenPhrases.add(phraseLower);
+
+              const freqBonus = comboFreqBonus([w1, w2, w3]);
+              const finalScore = score - COMBO_TIEBREAK_PENALTY + freqBonus;
+
+              combos.push({ phrase, tier, score: finalScore, corpus: false });
+              if (combos.length >= MAX_COMBO_RESULTS) break;
+            }
+            if (combos.length >= MAX_COMBO_RESULTS) break;
+          }
+          if (combos.length >= MAX_COMBO_RESULTS) break;
+        }
+        if (combos.length >= MAX_COMBO_RESULTS) break;
+      }
+      if (combos.length >= MAX_COMBO_RESULTS) break;
+    }
+  }
+
+  // Sort by score descending, then alphabetical
+  combos.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
+
+  // Diversity filter: cap results per first word
+  const prefixCounts: Record<string, number> = {};
+  const diverse: RhymeResult[] = [];
+  for (const c of combos) {
+    const prefix = c.phrase.split(" ")[0];
+    prefixCounts[prefix] = (prefixCounts[prefix] ?? 0) + 1;
+    if (prefixCounts[prefix] <= MAX_PER_PREFIX) {
+      diverse.push(c);
+    }
+  }
+
+  return diverse.slice(0, Math.min(count, MAX_COMBO_RESULTS));
 }
 
 // ── Main match function ───────────────────────────────────────────────────────
@@ -303,6 +466,15 @@ export function findRhymes(phrase: string, count: number): MatchOutput {
   for (const r of results) tierCounts[r.tier] = (tierCounts[r.tier] ?? 0) + 1;
 
   results.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
+
+  // ── Multi-word combinations ────────────────────────────────────────────
+  const comboIndex = getComboIndex();
+  if (syllables >= 2 && comboIndex.by_syl && Object.keys(comboIndex.by_syl).length > 0) {
+    const existingPhrases = new Set(results.map((r) => r.phrase.toLowerCase()));
+    const comboResults = generateCombos(fingerprint, comboIndex, existingPhrases, count);
+    results.push(...comboResults);
+    results.sort((a, b) => b.score - a.score || a.phrase.localeCompare(b.phrase));
+  }
 
   // ── Deduplication ────────────────────────────────────────────────────────
   // 1. Exact duplicates: same phrase from both corpus + wordlist (case-insensitive).
