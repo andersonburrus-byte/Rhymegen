@@ -4,6 +4,7 @@ Run once locally: python scripts/generate_wordlist.py
 Outputs:
   data/wordlist.json       — multisyllabic words with phonemes + fingerprint
   data/phoneme_lookup.json — flat word→phonemes dict (used by matching.py at runtime)
+  data/combo_index.json    — words indexed by syllable count & final phoneme (for multi-word combos)
 
 Proper noun filtering:
   Uses wordfreq English frequency scores to exclude surnames and obscure proper nouns.
@@ -35,6 +36,10 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 VOWELS = {"IH", "UH", "AH", "EH", "ER", "IY", "EY", "AY", "OW", "UW", "AO", "AA", "AW", "OY"}
 
+# AE ("cat", "carry") → EH groups short front vowels so "carry"/"scary"/"harry"
+# all land in the same fingerprint bucket.
+PHONEME_NORM = {"AE": "EH"}
+
 # ── Proper noun filter settings ───────────────────────────────────────────────
 # Minimum wordfreq English frequency to appear in wordlist results.
 # wordfreq scores range from ~1e-9 (extremely rare) to ~0.07 (most common words).
@@ -58,8 +63,8 @@ def extract_fingerprint(phonemes):
     fingerprint = []
     i = 0
     while i < len(phonemes):
-        p = phonemes[i]
-        if p in ("AO", "AA") and i + 1 < len(phonemes) and phonemes[i + 1] == "R":
+        p = PHONEME_NORM.get(phonemes[i], phonemes[i])
+        if p in ("AO", "AA") and i + 1 < len(phonemes) and PHONEME_NORM.get(phonemes[i + 1], phonemes[i + 1]) == "R":
             fingerprint.append(p + " R")  # "AO R" or "AA R"
             i += 2
         elif p in VOWELS:
@@ -143,12 +148,14 @@ for word, phonemes in entries:
         filtered_count += 1
         continue
 
+    freq = word_frequency(word, 'en') if HAS_WORDFREQ else 0.0
     wordlist.append({
         "phrase": word,
         "phonemes": clean,
         "fingerprint": fp,
         "syllables": len(fp),
-        "source": "wordlist"
+        "source": "wordlist",
+        "freq": freq,
     })
 
 # Write wordlist.json
@@ -173,7 +180,65 @@ lookup_path = os.path.join(DATA_DIR, 'phoneme_lookup.json')
 with open(lookup_path, 'w') as f:
     json.dump(phoneme_lookup_full, f)
 
-print(f"Generated {len(wordlist)} wordlist entries (multisyllabic, filtered)")
+# ── Generate combo_index.json ────────────────────────────────────────────────
+# Index ALL words (including single-syllable) by syllable count and final phoneme
+# for runtime multi-word combination in matching.py
+print("\nGenerating combo index...")
+
+by_syl = {}        # syl_count -> list of {w, fp}
+by_final = {}      # final_phoneme -> syl_count -> list of {w, fp}
+
+combo_word_count = 0
+
+for word, phonemes in phoneme_lookup_full.items():
+    # Skip words with apostrophes or non-alpha (keep clean words only)
+    if not re.match(r'^[a-z]+$', word):
+        continue
+
+    fp = extract_fingerprint(phonemes)
+    if len(fp) < 1:
+        continue  # no vowels
+
+    syl = len(fp)
+    if syl > 5:
+        continue  # skip very long words
+
+    # Word frequency filter: skip very rare words from combo results
+    if HAS_WORDFREQ:
+        freq = word_frequency(word, 'en')
+        if freq < 1e-7:
+            continue
+
+    entry = {"w": word, "fp": fp}
+
+    # Index by syllable count
+    syl_key = str(syl)
+    if syl_key not in by_syl:
+        by_syl[syl_key] = []
+    by_syl[syl_key].append(entry)
+
+    # Index by final phoneme + syllable count
+    final = fp[-1]
+    if final not in by_final:
+        by_final[final] = {}
+    if syl_key not in by_final[final]:
+        by_final[final][syl_key] = []
+    by_final[final][syl_key].append(entry)
+
+    combo_word_count += 1
+
+combo_index = {"by_syl": by_syl, "by_final": by_final}
+combo_path = os.path.join(DATA_DIR, 'combo_index.json')
+with open(combo_path, 'w') as f:
+    json.dump(combo_index, f, separators=(',', ':'))
+
+combo_size_mb = os.path.getsize(combo_path) / 1024 / 1024
+print(f"Generated combo index: {combo_word_count} words ({combo_size_mb:.1f} MB)")
+for syl_key in sorted(by_syl.keys(), key=int):
+    print(f"  {syl_key}-syllable: {len(by_syl[syl_key])} words")
+print(f"Output: {combo_path}")
+
+print(f"\nGenerated {len(wordlist)} wordlist entries (multisyllabic, filtered)")
 print(f"  Filtered out: {filtered_count} proper nouns / obscure words")
 print(f"Generated {len(phoneme_lookup_full)} phoneme lookup entries (all words)")
 print(f"Output: {wordlist_path}")
