@@ -229,6 +229,13 @@ for word, phonemes in phoneme_lookup_full.items():
 
     combo_word_count += 1
 
+# Sort each bucket by frequency descending so highest-freq words are scanned first
+for syl_key in by_syl:
+    by_syl[syl_key].sort(key=lambda e: e.get("f", 0), reverse=True)
+for final_key in by_final:
+    for syl_key in by_final[final_key]:
+        by_final[final_key][syl_key].sort(key=lambda e: e.get("f", 0), reverse=True)
+
 combo_index = {"by_syl": by_syl, "by_final": by_final}
 combo_path = os.path.join(DATA_DIR, 'combo_index.json')
 with open(combo_path, 'w') as f:

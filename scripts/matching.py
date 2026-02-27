@@ -116,7 +116,7 @@ def apply_corpus_bonus(score, tier, is_corpus):
 
 
 # ── Multi-word combination constants ─────────────────────────────────────────
-MAX_COMBO_RESULTS = 200      # Max multi-word results to generate
+MAX_COMBO_RESULTS = 1000     # Max multi-word results to generate (trimmed by diversity filter)
 MAX_PREFIX_SCAN = 2000       # Max prefix candidates to score per split
 COMBO_TIEBREAK_PENALTY = 1   # Score penalty so single words rank above combos at same tier
 FREQ_BONUS_TIERS = [         # (min_freq, bonus) — checked in order, first match wins
@@ -159,6 +159,9 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
     seen_phrases = set()
 
     # ── 2-word combos ────────────────────────────────────────────────────────
+    num_splits = n - 1
+    per_split_cap = MAX_COMBO_RESULTS // max(num_splits, 1)
+
     for split in range(1, n):
         prefix_syl = split
         suffix_syl = n - split
@@ -176,6 +179,7 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
         # Limit prefix scan for performance
         scan_prefixes = prefix_entries[:MAX_PREFIX_SCAN]
 
+        split_found = 0
         for suffix in suffix_entries:
             suffix_fp = suffix["fp"]
             for prefix in scan_prefixes:
@@ -205,8 +209,15 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
                     "corpus": False,
                 })
 
-    # ── 3-word combos ────────────────────────────────────────────────────────
-    for s1 in range(1, n - 1):
+                split_found += 1
+                if split_found >= per_split_cap:
+                    break
+            if split_found >= per_split_cap:
+                break
+
+    # ── 3-word combos (only for 3-4 syllable inputs) ─────────────────────────
+    if n <= 4:
+      for s1 in range(1, n - 1):
         for s2 in range(s1 + 1, n):
             syl1 = s1
             syl2 = s2 - s1
@@ -223,8 +234,8 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
                 continue
 
             # Limit scan: cap middle and prefix words
-            scan_w1 = w1_entries[:500]
-            scan_w2 = w2_entries[:500]
+            scan_w1 = w1_entries[:300]
+            scan_w2 = w2_entries[:300]
 
             for w3 in w3_entries:
                 w3_fp = w3["fp"]
