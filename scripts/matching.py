@@ -115,6 +115,145 @@ def apply_corpus_bonus(score, tier, is_corpus):
     return min(score + CORPUS_BONUS, next_tier_floor - 1)
 
 
+# ── Multi-word combination constants ─────────────────────────────────────────
+MAX_COMBO_RESULTS = 200      # Max multi-word results to generate
+MAX_PREFIX_SCAN = 2000       # Max prefix candidates to score per split
+COMBO_TIEBREAK_PENALTY = 1   # Score penalty so single words rank above combos at same tier
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def generate_combos(input_fp, combo_index, existing_phrases, count):
+    """
+    Generate 2-word and 3-word combinations matching the input fingerprint.
+    Returns list of result dicts compatible with single-word results.
+
+    Args:
+        input_fp: target fingerprint list, e.g. ['AA', 'IY', 'ER', 'AW']
+        combo_index: loaded combo_index.json dict with 'by_syl' and 'by_final' keys
+        existing_phrases: set of lowercase phrases already in results (for dedup)
+        count: max results desired
+    """
+    n = len(input_fp)
+    if n < 2:
+        return []  # need at least 2 syllables for a combo
+
+    target_final = input_fp[-1]
+    by_syl = combo_index.get("by_syl", {})
+    by_final = combo_index.get("by_final", {})
+
+    combos = []
+    seen_phrases = set()
+
+    # ── 2-word combos ────────────────────────────────────────────────────────
+    for split in range(1, n):
+        prefix_syl = split
+        suffix_syl = n - split
+
+        # Get suffix candidates: must end with target's final phoneme
+        suffix_entries = by_final.get(target_final, {}).get(str(suffix_syl), [])
+        if not suffix_entries:
+            continue
+
+        # Get prefix candidates: any word with the right syllable count
+        prefix_entries = by_syl.get(str(prefix_syl), [])
+        if not prefix_entries:
+            continue
+
+        # Limit prefix scan for performance
+        scan_prefixes = prefix_entries[:MAX_PREFIX_SCAN]
+
+        for suffix in suffix_entries:
+            suffix_fp = suffix["fp"]
+            for prefix in scan_prefixes:
+                prefix_fp = prefix["fp"]
+
+                # Build combined fingerprint and score it
+                combined_fp = prefix_fp + suffix_fp
+                score, tier = score_entry(combined_fp, input_fp)
+                if score == 0 or tier is None or tier > 3:
+                    continue  # skip Tier 4 combos
+
+                # Build phrase
+                phrase = prefix["w"] + " " + suffix["w"]
+                phrase_lower = phrase.lower()
+                if phrase_lower in seen_phrases or phrase_lower in existing_phrases:
+                    continue
+                seen_phrases.add(phrase_lower)
+
+                # Apply tiebreak penalty so single words rank first at same score
+                final_score = score - COMBO_TIEBREAK_PENALTY
+
+                combos.append({
+                    "phrase": phrase,
+                    "tier": tier,
+                    "score": final_score,
+                    "corpus": False,
+                })
+
+    # ── 3-word combos ────────────────────────────────────────────────────────
+    for s1 in range(1, n - 1):
+        for s2 in range(s1 + 1, n):
+            syl1 = s1
+            syl2 = s2 - s1
+            syl3 = n - s2
+
+            # Last word must end with target final phoneme
+            w3_entries = by_final.get(target_final, {}).get(str(syl3), [])
+            if not w3_entries:
+                continue
+
+            w1_entries = by_syl.get(str(syl1), [])
+            w2_entries = by_syl.get(str(syl2), [])
+            if not w1_entries or not w2_entries:
+                continue
+
+            # Limit scan: cap middle and prefix words
+            scan_w1 = w1_entries[:500]
+            scan_w2 = w2_entries[:500]
+
+            for w3 in w3_entries:
+                w3_fp = w3["fp"]
+                for w2 in scan_w2:
+                    w2_fp = w2["fp"]
+                    for w1 in scan_w1:
+                        w1_fp = w1["fp"]
+
+                        combined_fp = w1_fp + w2_fp + w3_fp
+                        score, tier = score_entry(combined_fp, input_fp)
+                        if score == 0 or tier is None or tier > 3:
+                            continue
+
+                        phrase = w1["w"] + " " + w2["w"] + " " + w3["w"]
+                        phrase_lower = phrase.lower()
+                        if phrase_lower in seen_phrases or phrase_lower in existing_phrases:
+                            continue
+                        seen_phrases.add(phrase_lower)
+
+                        final_score = score - COMBO_TIEBREAK_PENALTY
+
+                        combos.append({
+                            "phrase": phrase,
+                            "tier": tier,
+                            "score": final_score,
+                            "corpus": False,
+                        })
+
+                        if len(combos) >= MAX_COMBO_RESULTS:
+                            break
+                    if len(combos) >= MAX_COMBO_RESULTS:
+                        break
+                if len(combos) >= MAX_COMBO_RESULTS:
+                    break
+            if len(combos) >= MAX_COMBO_RESULTS:
+                break
+        if len(combos) >= MAX_COMBO_RESULTS:
+            break
+
+    # Sort combos by score descending, then alphabetical
+    combos.sort(key=lambda x: (-x["score"], x["phrase"]))
+    return combos[:min(count, MAX_COMBO_RESULTS)]
+
+
 def main():
     try:
         if len(sys.argv) < 2:
@@ -135,6 +274,12 @@ def main():
             corpus = json.load(f)
         with open(os.path.join(data_dir, 'phoneme_lookup.json')) as f:
             phoneme_lookup = json.load(f)
+
+        combo_index_path = os.path.join(data_dir, 'combo_index.json')
+        combo_index = {}
+        if os.path.exists(combo_index_path):
+            with open(combo_index_path) as f:
+                combo_index = json.load(f)
 
         all_entries = corpus + wordlist
 
@@ -207,6 +352,15 @@ def main():
 
         # Sort: score descending, then alphabetical ascending for ties
         results.sort(key=lambda x: (-x["score"], x["phrase"]))
+
+        # ── Multi-word combinations ──────────────────────────────────────────
+        if combo_index and syllables >= 2:
+            existing_phrases = {r["phrase"].lower() for r in results}
+            combo_results = generate_combos(fingerprint, combo_index, existing_phrases, count)
+            results.extend(combo_results)
+            # Re-sort with combos mixed in
+            results.sort(key=lambda x: (-x["score"], x["phrase"]))
+
         results = results[:count]
 
         output = {
