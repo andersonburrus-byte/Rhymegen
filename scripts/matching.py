@@ -119,7 +119,21 @@ def apply_corpus_bonus(score, tier, is_corpus):
 MAX_COMBO_RESULTS = 200      # Max multi-word results to generate
 MAX_PREFIX_SCAN = 2000       # Max prefix candidates to score per split
 COMBO_TIEBREAK_PENALTY = 1   # Score penalty so single words rank above combos at same tier
+FREQ_BONUS_TIERS = [         # (min_freq, bonus) — checked in order, first match wins
+    (1e-3, 5),               # Very common words: "got", "down", "my", "the"
+    (1e-4, 3),               # Common words: "body", "copy", "probably"
+    (1e-5, 1),               # Uncommon but real: "obstacle", "pottery"
+]                            # Below 1e-5: no bonus (rare/obscure words)
 # ─────────────────────────────────────────────────────────────────────────────
+
+
+def _combo_freq_bonus(entries):
+    """Return a small score bonus based on the minimum word frequency in a combo."""
+    min_freq = min(e.get("f", 0) for e in entries)
+    for threshold, bonus in FREQ_BONUS_TIERS:
+        if min_freq >= threshold:
+            return bonus
+    return 0
 
 
 def generate_combos(input_fp, combo_index, existing_phrases, count):
@@ -180,8 +194,9 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
                     continue
                 seen_phrases.add(phrase_lower)
 
-                # Apply tiebreak penalty so single words rank first at same score
-                final_score = score - COMBO_TIEBREAK_PENALTY
+                # Frequency bonus (common words rank higher) minus tiebreak penalty
+                freq_bonus = _combo_freq_bonus([prefix, suffix])
+                final_score = score - COMBO_TIEBREAK_PENALTY + freq_bonus
 
                 combos.append({
                     "phrase": phrase,
@@ -229,7 +244,8 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
                             continue
                         seen_phrases.add(phrase_lower)
 
-                        final_score = score - COMBO_TIEBREAK_PENALTY
+                        freq_bonus = _combo_freq_bonus([w1, w2, w3])
+                        final_score = score - COMBO_TIEBREAK_PENALTY + freq_bonus
 
                         combos.append({
                             "phrase": phrase,
@@ -251,7 +267,19 @@ def generate_combos(input_fp, combo_index, existing_phrases, count):
 
     # Sort combos by score descending, then alphabetical
     combos.sort(key=lambda x: (-x["score"], x["phrase"]))
-    return combos[:min(count, MAX_COMBO_RESULTS)]
+
+    # Diversity filter: cap results per first word to avoid "ali around, ali
+    # burnout, ali surround..." dominating.  Keep top 2 per prefix word.
+    MAX_PER_PREFIX = 2
+    prefix_counts: dict[str, int] = {}
+    diverse = []
+    for c in combos:
+        prefix = c["phrase"].split()[0]
+        prefix_counts[prefix] = prefix_counts.get(prefix, 0) + 1
+        if prefix_counts[prefix] <= MAX_PER_PREFIX:
+            diverse.append(c)
+
+    return diverse[:min(count, MAX_COMBO_RESULTS)]
 
 
 def main():

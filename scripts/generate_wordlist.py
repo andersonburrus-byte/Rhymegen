@@ -203,13 +203,15 @@ for word, phonemes in phoneme_lookup_full.items():
     if syl > 5:
         continue  # skip very long words
 
-    # Word frequency filter: skip very rare words from combo results
+    # Word frequency filter: skip rare words from combo results
     if HAS_WORDFREQ:
         freq = word_frequency(word, 'en')
-        if freq < 1e-7:
+        if freq < 1e-6:
             continue
+    else:
+        freq = 0.0
 
-    entry = {"w": word, "fp": fp}
+    entry = {"w": word, "fp": fp, "f": round(freq, 8)}
 
     # Index by syllable count
     syl_key = str(syl)
