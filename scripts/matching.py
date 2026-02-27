@@ -20,14 +20,15 @@ CORPUS_BONUS = 25              # Added only to corpus entries; never crosses tie
 # ──────────────────────────────────────────────────────────────────────────────
 
 VOWELS = {"IH", "UH", "AH", "EH", "ER", "IY", "EY", "AY", "OW", "UW", "AO", "AA", "AW", "OY"}
+PHONEME_NORM = {"AE": "EH"}
 
 
 def extract_fingerprint(phonemes):
     fingerprint = []
     i = 0
     while i < len(phonemes):
-        p = phonemes[i]
-        if p in ("AO", "AA") and i + 1 < len(phonemes) and phonemes[i + 1] == "R":
+        p = PHONEME_NORM.get(phonemes[i], phonemes[i])
+        if p in ("AO", "AA") and i + 1 < len(phonemes) and PHONEME_NORM.get(phonemes[i + 1], phonemes[i + 1]) == "R":
             fingerprint.append(p + " R")  # "AO R" or "AA R"
             i += 2
         elif p in VOWELS:
